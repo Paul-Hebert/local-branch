@@ -127,7 +127,7 @@ header{
 			}
 
 			.middle-line{
-				@include transition_mixin(all 1000ms);
+				@include transition_mixin(all 300ms);
 			}
 
 			&.open{
@@ -147,7 +147,7 @@ header{
 			height:0px;
 			overflow:hidden;
 			padding:0px;
-			@include transition_mixin(all 1000ms);
+			@include transition_mixin(all 600ms);
 
 			a{
 				display:block;
@@ -156,7 +156,7 @@ header{
 				padding-left:20px;
 				@include background-gradient(90deg,-90deg);
 
-				&:nth-of-type(odd){
+				&:nth-of-type(even){
 					@include background-gradient(-90deg,90deg);				
 				}
 			}			
