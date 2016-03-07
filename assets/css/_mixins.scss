@@ -1,0 +1,15 @@
+@mixin background-gradient($angle1, $angle2){
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
+	background: #87c540; /* Old browsers */
+	background: -moz-linear-gradient($angle1, #87c540 0%, #75ccd2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient($angle1, #87c540 0%,#75ccd2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient($angle2, #87c540 0%,#75ccd2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin transition_mixin($transition) {
+	-o-transition: $transition;
+	-ms-transition: $transition;
+	-webkit-transition: $transition;
+	transition: $transition;
+}

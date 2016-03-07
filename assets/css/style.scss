@@ -1,45 +1,8 @@
 @import 'reset';
-
-
-$white 			:	#fff;
-$off-white		:	#F8FBF8;
-$green			:	#87C540;
-$blue			:	#75CCD2;
-$light-color	:	#CEDCD3;
-$dark-color		:	#00301C;
-$off-black		:	#131313;
-
-
-
-.heading{
-	text-transform:uppercase;
-	letter-spacing:.1em;
-}
-
-.box-shadow{
-	box-shadow: 0px 5px 10px $dark-color;
-}
-
-.visible-y{
-	height:500px;
-}
-
-@mixin background-gradient($angle1, $angle2){
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
-	background: #87c540; /* Old browsers */
-	background: -moz-linear-gradient($angle1, #87c540 0%, #75ccd2 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient($angle1, #87c540 0%,#75ccd2 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient($angle2, #87c540 0%,#75ccd2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-@mixin transition_mixin($transition) {
-	-o-transition: $transition;
-	-ms-transition: $transition;
-	-webkit-transition: $transition;
-	transition: $transition;
-}
-
+@import 'vars';
+@import 'mixins';
+@import 'extends';
+@import 'typography';
 
 
 body, body *{
@@ -48,11 +11,17 @@ body, body *{
 }
 
 body{
-	@include background-gradient(-90deg, 90deg);
-	color:$off-black;
+	@include background-gradient(-70deg, 70deg);
+	color:$off-white;
+	padding:20px;
+	padding-top:120px;
 }
 
 header{
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
 	@include background-gradient(-6deg, 6deg);
 	@extend .box-shadow;
 
@@ -74,7 +43,7 @@ header{
 	}
 }
 
-#logo{
+.logo{
 	svg{
 		width:30px;
 		fill:$off-white;
@@ -167,7 +136,7 @@ header{
 		}
 	}
 
-	#logo{
+	.logo{
 		width:100%;
 		text-align:center;
 	}

@@ -9,7 +9,7 @@
 
 	<body>
 		<header>
-			<a href="index.php" id="logo">
+			<a href="index.php" class="logo">
 				<span>Local</span> 
 				<?php include('assets/svg/logo.php'); ?> 
 				<span>Branch</span>

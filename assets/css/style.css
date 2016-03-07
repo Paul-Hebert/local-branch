@@ -34,7 +34,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.heading, header a {
+.heading, h1, h2, h3, h4, h5, h6, header a {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
@@ -52,17 +52,23 @@ body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
   background: #87c540;
   /* Old browsers */
-  background: -moz-linear-gradient(-90deg, #87c540 0%, #75ccd2 100%);
+  background: -moz-linear-gradient(-70deg, #87c540 0%, #75ccd2 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-90deg, #87c540 0%, #75ccd2 100%);
+  background: -webkit-linear-gradient(-70deg, #87c540 0%, #75ccd2 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(90deg, #87c540 0%, #75ccd2 100%);
+  background: linear-gradient(70deg, #87c540 0%, #75ccd2 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
-  color: #131313; }
+  color: #F8FBF8;
+  padding: 20px;
+  padding-top: 120px; }
 
 header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
   background: #87c540;
   /* Old browsers */
@@ -85,12 +91,12 @@ header {
     float: right;
     padding: 15px; }
 
-#logo svg {
+.logo svg {
   width: 30px;
   fill: #F8FBF8; }
-#logo:hover svg {
+.logo:hover svg {
   fill: #fff; }
-#logo span {
+.logo span {
   position: relative;
   top: -15px; }
 
@@ -170,7 +176,7 @@ header {
   header a {
     padding: 10px; }
 
-  #logo {
+  .logo {
     width: 100%;
     text-align: center; } }
 
