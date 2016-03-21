@@ -13,3 +13,10 @@
 	-webkit-transition: $transition;
 	transition: $transition;
 }
+
+@mixin radius($radius) {
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}

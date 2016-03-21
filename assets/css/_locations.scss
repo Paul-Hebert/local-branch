@@ -1,0 +1,19 @@
+#map{
+	width:400px;
+
+	path, polyline, polygon{
+		fill:$off-white;
+		cursor:pointer;
+		stroke:$green;
+
+		&:hover{
+			fill:$green;
+		}
+	}
+}
+
+#county_dropdown{
+	display:block;
+	width:100%;
+	padding:15px;
+}

@@ -1,3 +1,34 @@
+*{
+	line-height:140%;
+	font-family: 'Lato', sans-serif;
+}
+
 h1,h2,h3,h4,h5,h6{
 	@extend .heading;
+}
+
+p{
+	font-size:$small;
+	margin-bottom:$small;
+}
+
+h1{
+	font-size:$extra-large;
+	margin-bottom:$extra-large;
+}
+
+h2{
+	font-size:$large;
+	margin-bottom:$large;
+}
+
+h3{
+	font-size:$medium;
+	margin-bottom:$medium;
+}
+
+.accent{
+	font-style:italic;
+	font-size:$large;
+	margin-bottom:$large;
 }

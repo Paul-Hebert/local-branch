@@ -1,0 +1,17 @@
+#home{
+	text-align:center;	
+
+	*{
+		max-width:600px;
+		margin-left: auto;
+		margin-right:auto;
+	}
+
+	.logo{	
+		svg{
+			width:80px;
+			position:relative;
+			top:25px;
+		}
+	}
+}

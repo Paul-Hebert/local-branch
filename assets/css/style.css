@@ -38,14 +38,63 @@ table {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
-.box-shadow, header {
+.box-shadow, header, .button {
   box-shadow: 0px 5px 10px #00301C; }
 
 .visible-y {
   height: 500px; }
 
+* {
+  line-height: 140%;
+  font-family: 'Lato', sans-serif; }
+
+p {
+  font-size: 13pt;
+  margin-bottom: 13pt; }
+
+h1 {
+  font-size: 34pt;
+  margin-bottom: 34pt; }
+
+h2 {
+  font-size: 21pt;
+  margin-bottom: 21pt; }
+
+h3 {
+  font-size: 16pt;
+  margin-bottom: 16pt; }
+
+.accent {
+  font-style: italic;
+  font-size: 21pt;
+  margin-bottom: 21pt; }
+
+#home {
+  text-align: center; }
+  #home * {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+  #home .logo svg {
+    width: 80px;
+    position: relative;
+    top: 25px; }
+
+#map {
+  width: 400px; }
+  #map path, #map polyline, #map polygon {
+    fill: #F8FBF8;
+    cursor: pointer;
+    stroke: #87C540; }
+    #map path:hover, #map polyline:hover, #map polygon:hover {
+      fill: #87C540; }
+
+#county_dropdown {
+  display: block;
+  width: 100%;
+  padding: 15px; }
+
 body, body * {
-  font-family: 'Lato', sans-serif;
   box-sizing: border-box; }
 
 body {
@@ -61,11 +110,11 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   color: #F8FBF8;
-  padding: 20px;
-  padding-top: 120px; }
+  z-index: 0; }
 
 header {
   position: fixed;
+  z-index: 20;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -100,12 +149,43 @@ header {
   position: relative;
   top: -15px; }
 
+.main-content {
+  background: url("../../assets/imgs/transparency30.png");
+  padding: 20px;
+  padding-top: 120px;
+  min-height: 100vh; }
+
+.button {
+  padding: 20px 5px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: #F8FBF8;
+  color: #00301C;
+  display: block;
+  cursor: pointer;
+  font-size: 16pt;
+  font-style: italic;
+  text-decoration: none; }
+  .button:hover {
+    background: #fff; }
+
 .mobile {
   display: none; }
 
 @media (max-width: 650px) {
-  .box-shadow, header {
-    box-shadow: 0px 5px 10px #00301C; }
+  svg, img {
+    max-width: 100%; }
+
+  h1 {
+    font-size: 16pt; }
+
+  h2 {
+    font-size: 13pt; }
+
+  h3 {
+    font-size: 13pt; }
 
   .mobile {
     display: block; }
@@ -144,7 +224,8 @@ header {
     -o-transition: all 600ms;
     -ms-transition: all 600ms;
     -webkit-transition: all 600ms;
-    transition: all 600ms; }
+    transition: all 600ms;
+    z-index: 10; }
     header nav a {
       display: block;
       width: 100%;

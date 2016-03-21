@@ -3,22 +3,23 @@
 @import 'mixins';
 @import 'extends';
 @import 'typography';
+@import 'home';
+@import 'locations';
 
 
 body, body *{
-	font-family: 'Lato', sans-serif;
 	box-sizing:border-box;
 }
 
 body{
 	@include background-gradient(-70deg, 70deg);
 	color:$off-white;
-	padding:20px;
-	padding-top:120px;
+	z-index:0;
 }
 
 header{
 	position:fixed;
+	z-index:20;
 	left:0px;
 	right:0px;
 	top:0px;
@@ -61,83 +62,28 @@ header{
 	}
 }
 
-.mobile{
-	display:none;
+.main-content{
+	background:url('../../assets/imgs/transparency30.png');
+	padding:20px;
+	padding-top:120px;
+	min-height:100vh;
 }
 
+.button{
+	padding:20px 5px;
+	@include radius(15px);
+	@extend .box-shadow;
+	background:$off-white;
+	color:$dark-color;
+	display:block;
+	cursor:pointer;
+	font-size:$medium;
+	font-style:italic;
+	text-decoration:none;
 
-
-@media(max-width:650px){
-.box-shadow{
-	box-shadow: 0px 5px 10px $dark-color;
-}
-
-	.mobile{
-		display:block;
-	}
-
-	#menu-toggle{
-		position:absolute;
-		top:20px;
-		left:20px;
-		color:$off-white;
-		cursor:pointer;
-
-		svg{
-			width:30px;
-			fill:none;
-			stroke:$off-white;
-			stroke-width:5;
-			stroke-linecap:round;
-			stroke-miterlimit:10;
-
-			&:hover{
-				stroke:$white;
-			}
-
-			.middle-line{
-				@include transition_mixin(all 300ms);
-			}
-
-			&.open{
-				.middle-line{
-					opacity:0;
-				}
-			}
-		}
-	}
-
-	header{
-		nav{
-			width:100%;
-			float:none;
-			position:absolute;
-			top:66px;
-			height:0px;
-			overflow:hidden;
-			padding:0px;
-			@include transition_mixin(all 600ms);
-
-			a{
-				display:block;
-				width:100%;
-				margin-top:4px;
-				padding-left:20px;
-				@include background-gradient(90deg,-90deg);
-
-				&:nth-of-type(even){
-					@include background-gradient(-90deg,90deg);				
-				}
-			}			
-		}
-
-		a{
-			padding:10px;
-		}
-	}
-
-	.logo{
-		width:100%;
-		text-align:center;
+	&:hover{
+		background: $white;
 	}
 }
+
+@import 'mobile';
