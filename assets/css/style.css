@@ -79,17 +79,6 @@ select {
   appearance: none;
   padding: 5px; }
 
-#home {
-  text-align: center; }
-  #home * {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto; }
-  #home .logo svg {
-    width: 80px;
-    position: relative;
-    top: 25px; }
-
 #map {
   width: 400px; }
   #map path, #map polyline, #map polygon {
@@ -133,17 +122,18 @@ select {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */ }
-  .plant_preview .image_wrapper {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    overflow: hidden;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%; }
-    .plant_preview .image_wrapper img {
-      width: 100%; }
+
+.image_wrapper {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+  .image_wrapper img {
+    width: 100%; }
 
 body, body * {
   box-sizing: border-box; }
@@ -203,7 +193,16 @@ header {
 .main-content {
   background: url("../../assets/imgs/transparency30.png");
   padding-top: 120px;
-  min-height: 100vh; }
+  min-height: 100vh;
+  text-align: center; }
+  .main-content * {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+  .main-content .logo svg {
+    width: 80px;
+    position: relative;
+    top: 25px; }
 
 .button {
   padding: 20px 5px;

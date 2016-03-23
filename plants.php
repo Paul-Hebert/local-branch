@@ -10,7 +10,7 @@
 	$title = 'Plants in ' . $county;
 	include('assets/php/header.php');
 ?>
-		<div class="main-content" id="home">
+		<div class="main-content">
 			<?php 
 				echo '<h1>' . $title . '</h1>';
 

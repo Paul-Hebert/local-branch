@@ -23,6 +23,7 @@
 			<nav>
 				<a href="locations.php">Locations</a>
 				<a href="plants.php">Plants</a>
+				<a href="favorites.php">Favorites</a>
 				<a href="support.php">Support</a>
 			</nav>
 		</header>
