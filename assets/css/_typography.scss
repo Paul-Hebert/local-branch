@@ -14,21 +14,26 @@ p{
 
 h1{
 	font-size:$extra-large;
-	margin-bottom:$extra-large;
+	margin-bottom:$large;
 }
 
 h2{
 	font-size:$large;
-	margin-bottom:$large;
+	margin-bottom:$medium;
 }
 
 h3{
 	font-size:$medium;
-	margin-bottom:$medium;
+	margin-bottom:$small;
 }
 
 .accent{
 	font-style:italic;
 	font-size:$large;
-	margin-bottom:$large;
+	margin-bottom:$medium;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
 }

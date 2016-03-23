@@ -38,7 +38,7 @@ table {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
-.box-shadow, header, .button {
+.box-shadow, .plant_preview, header, .button {
   box-shadow: 0px 5px 10px #00301C; }
 
 .visible-y {
@@ -54,20 +54,30 @@ p {
 
 h1 {
   font-size: 34pt;
-  margin-bottom: 34pt; }
+  margin-bottom: 21pt; }
 
 h2 {
   font-size: 21pt;
-  margin-bottom: 21pt; }
+  margin-bottom: 16pt; }
 
 h3 {
   font-size: 16pt;
-  margin-bottom: 16pt; }
+  margin-bottom: 13pt; }
 
 .accent {
   font-style: italic;
   font-size: 21pt;
-  margin-bottom: 21pt; }
+  margin-bottom: 16pt; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px; }
 
 #home {
   text-align: center; }
@@ -93,6 +103,47 @@ h3 {
   display: block;
   width: 100%;
   padding: 15px; }
+
+.plant_preview {
+  cursor: pointer;
+  display: block;
+  text-align: left;
+  padding: 13pt;
+  margin-bottom: 5px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
+  background: #87c540;
+  /* Old browsers */
+  background: -moz-linear-gradient(90deg, #87c540 0%, #75ccd2 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(90deg, #87c540 0%, #75ccd2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(-90deg, #87c540 0%, #75ccd2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .plant_preview:nth-of-type(even) {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
+    background: #87c540;
+    /* Old browsers */
+    background: -moz-linear-gradient(-90deg, #87c540 0%, #75ccd2 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-90deg, #87c540 0%, #75ccd2 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(90deg, #87c540 0%, #75ccd2 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+  .plant_preview .image_wrapper {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+    .plant_preview .image_wrapper img {
+      width: 100%; }
 
 body, body * {
   box-sizing: border-box; }
@@ -151,7 +202,6 @@ header {
 
 .main-content {
   background: url("../../assets/imgs/transparency30.png");
-  padding: 20px;
   padding-top: 120px;
   min-height: 100vh; }
 
@@ -217,7 +267,7 @@ header {
     width: 100%;
     float: none;
     position: absolute;
-    top: 66px;
+    top: 70px;
     height: 0px;
     overflow: hidden;
     padding: 0px;
@@ -259,6 +309,9 @@ header {
 
   .logo {
     width: 100%;
-    text-align: center; } }
+    text-align: center; }
+
+  #map {
+    width: 280px; } }
 
 /*# sourceMappingURL=style.css.map */

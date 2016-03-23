@@ -59,7 +59,7 @@
 			width:100%;
 			float:none;
 			position:absolute;
-			top:66px;
+			top:70px;
 			height:0px;
 			overflow:hidden;
 			padding:0px;
@@ -87,5 +87,9 @@
 	.logo{
 		width:100%;
 		text-align:center;
+	}
+
+	#map {
+	    width: 280px;
 	}
 }

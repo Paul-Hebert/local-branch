@@ -1,0 +1,27 @@
+.plant_preview{
+	cursor:pointer;
+	display:block;
+
+	text-align:left;
+	padding:$small;
+	margin-bottom:5px;
+	@extend .box-shadow;
+	@include background-gradient(90deg,-90deg);
+
+	&:nth-of-type(even){
+		@include background-gradient(-90deg,90deg);				
+	}
+
+	.image_wrapper{
+		display:inline-block;
+
+		height:40px;
+		width:40px;
+		overflow:hidden;
+		@include radius(50%);
+
+		img{
+			width:100%;
+		}
+	}
+}
