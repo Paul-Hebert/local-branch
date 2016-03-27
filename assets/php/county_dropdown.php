@@ -1,5 +1,5 @@
 <select id="county_dropdown" name="county">
-	<option value="">Select a county of California</option>
+	<option value="">Select a county in California</option>
 	<option value="Alameda County">Alameda County</option>
 	<option value="Alpine County">Alpine County</option>
 	<option value="Amador County">Amador County</option>

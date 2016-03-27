@@ -34,11 +34,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.heading, h1, h2, h3, h4, h5, h6, header a {
+.heading, h1, h2, h3, h4, h5, h6, .name, header a {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
-.box-shadow, .plant_preview, header, .button {
+.box-shadow, .large_input, select, .button, .plant_preview, header {
   box-shadow: 0px 5px 10px #00301C; }
 
 .visible-y {
@@ -64,20 +64,38 @@ h3 {
   font-size: 16pt;
   margin-bottom: 13pt; }
 
-.accent {
-  font-style: italic;
-  font-size: 21pt;
-  margin-bottom: 16pt; }
+.accent, .latin_name {
+  font-style: italic; }
 
 a {
   color: #fff;
   text-decoration: none; }
+
+.large_input, select, .button {
+  padding: 20px 5px;
+  margin-bottom: 13pt;
+  -o-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  background: #F8FBF8;
+  color: #00301C;
+  display: block;
+  cursor: pointer;
+  font-size: 16pt;
+  text-decoration: none;
+  border: 0px; }
 
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   padding: 5px; }
+
+.button {
+  font-style: italic; }
+  .button:hover {
+    background: #fff; }
 
 #map {
   width: 400px; }
@@ -94,6 +112,7 @@ select {
   padding: 15px; }
 
 .plant_preview {
+  position: relative;
   cursor: pointer;
   display: block;
   text-align: left;
@@ -122,16 +141,38 @@ select {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c540', endColorstr='#75ccd2',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */ }
+  .plant_preview .preview_details {
+    position: absolute;
+    left: 76px;
+    top: 25px; }
+    .plant_preview .preview_details .name, .plant_preview .preview_details .latin_name {
+      width: 500px; }
+    .plant_preview .preview_details .name {
+      padding-left: 10px; }
+
+.name {
+  border-bottom: 2px solid #F8FBF8;
+  text-align: left; }
+
+.latin_name {
+  text-align: right; }
+
+.description {
+  text-align: left; }
 
 .image_wrapper {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  border: 2px solid #F8FBF8;
+  height: 60px;
+  width: 60px;
   overflow: hidden;
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%; }
+  .image_wrapper.main {
+    width: 250px;
+    height: 250px; }
   .image_wrapper img {
     width: 100%; }
 
@@ -192,6 +233,7 @@ header {
 
 .main-content {
   background: url("../../assets/imgs/transparency30.png");
+  padding: 20px;
   padding-top: 120px;
   min-height: 100vh;
   text-align: center; }
@@ -203,22 +245,6 @@ header {
     width: 80px;
     position: relative;
     top: 25px; }
-
-.button {
-  padding: 20px 5px;
-  -o-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  background: #F8FBF8;
-  color: #00301C;
-  display: block;
-  cursor: pointer;
-  font-size: 16pt;
-  font-style: italic;
-  text-decoration: none; }
-  .button:hover {
-    background: #fff; }
 
 .mobile {
   display: none; }
@@ -311,6 +337,9 @@ header {
     text-align: center; }
 
   #map {
-    width: 280px; } }
+    width: 280px; }
+
+  .plant_preview .preview_details .name, .plant_preview .preview_details .latin_name {
+    width: 200px; } }
 
 /*# sourceMappingURL=style.css.map */

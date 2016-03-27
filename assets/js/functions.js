@@ -11,6 +11,13 @@ function initialize_location_picker(){
 		window.location = 'plants.php?county=' + county[3] + '+County';
 	});
 
+	$('#map path, #map polyline, #map polygon').hover(function(){
+		var county = $(this).attr('id').split('_');
+		var county = county[3].replace(/\+/g,' ');
+
+		$('#county_dropdown').val(county + ' County');
+	});	
+
 	$('#county_dropdown').change(function(){
 		window.location = 'plants.php?county=' + $(this).val();		
 	});
@@ -28,9 +35,6 @@ function initialize_mobile_menu(){
 
 		var first_y = $('.first-line').attr('y2');
 		var last_y = $('.last-line').attr('y2');
-
-		//$('.first-line').attr('y2', last_y);
-		//$('.last-line').attr('y2', first_y);
 
 		animate(
 	        $('.first-line'), // target jQuery element

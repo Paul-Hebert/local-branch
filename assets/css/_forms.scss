@@ -1,6 +1,30 @@
+.large_input{
+	padding:20px 5px;
+	margin-bottom:$small;
+	@include radius(40px);
+	@extend .box-shadow;
+	background:$off-white;
+	color:$dark-color;
+	display:block;
+	cursor:pointer;
+	font-size:$medium;	
+	text-decoration:none;
+	border:0px;
+}
+
 select{
+	@extend .large_input;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     padding: 5px;
+}
+
+.button{
+	@extend .large_input;
+	font-style:italic;
+
+	&:hover{
+		background: $white;
+	}
 }
