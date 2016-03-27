@@ -3,7 +3,6 @@
 	margin-bottom:$small;
 	@include radius(40px);
 	@extend .box-shadow;
-	background:$off-white;
 	color:$dark-color;
 	display:block;
 	cursor:pointer;
@@ -18,9 +17,28 @@ select{
     -moz-appearance: none;
     appearance: none;
     padding: 5px;
+    background:none;
+    position:relative;
+    z-index:1;
+}
+
+.select_wrapper{
+	@include radius(40px);	
+	background:$off-white;	
+	position:relative;
+
+	span{
+		color:$blue;
+		position:absolute;
+		right:20px;
+		top:18px;
+		cursor:pointer;
+		z-index:0;
+	}
 }
 
 .button{
+	background:$off-white;	
 	@extend .large_input;
 	font-style:italic;
 

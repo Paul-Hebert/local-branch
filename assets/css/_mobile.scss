@@ -93,11 +93,7 @@
 	    width: 280px;
 	}
 
-	.plant_preview{
-		.preview_details{
-			.name, .latin_name{
-				width:200px;
-			}
-		}
+	.latin_name{
+		font-size:$extra-small;
 	}
 }

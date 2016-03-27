@@ -8,6 +8,7 @@
 	margin-bottom:5px;
 	@extend .box-shadow;
 	@include background-gradient(90deg,-90deg);
+	//@include radius(50px);	
 
 	&:nth-of-type(even){
 		@include background-gradient(-90deg,90deg);				
@@ -17,9 +18,10 @@
 		position:absolute;
 		left: 76px;
 		top: 25px;
+		right:25px;
 
 		.name, .latin_name{
-			width:500px;
+			width:100%;
 		}
 
 		.name{
@@ -32,6 +34,7 @@
 	@extend .heading;
 	border-bottom:2px solid $off-white;
 	text-align:left;
+	margin-bottom:0px;
 }
 
 .latin_name{
@@ -58,7 +61,7 @@
 	}
 
 	&.more_plants{
-		margin:0px 10px;
+		margin:0px 5px;
 	}
 
 	img{

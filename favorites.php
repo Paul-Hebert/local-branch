@@ -14,7 +14,7 @@
 						<a href="plants.php" class="button">View Plants</a>
 					';
 				} else{
-					$plant_ids = explode(',', $_GET['ids']);
+					$plant_ids = array_unique( explode(',', $_GET['ids']) );
 
 					foreach ($plant_ids as $plant_count) {
 						include('assets/php/plant_preview.php');
