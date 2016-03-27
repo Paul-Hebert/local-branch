@@ -21,13 +21,17 @@
 			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 			<span class='button'>Share</span>
-			<span class='button'>Favorite</span>
+			<?php echo '<a class="button" id="favorite" data-id="' . $id . '">Favorite</a>'; ?>
+			
 			<?php
-				echo '<a class="image_wrapper"><img src="assets/imgs/plants/' . $plants[0][2] .'"></a>';
-				echo '<a class="image_wrapper"><img src="assets/imgs/plants/' . $plants[2][2] .'"></a>';
-				echo '<a class="image_wrapper"><img src="assets/imgs/plants/' . $plants[3][2] .'"></a>';
-				echo '<a class="image_wrapper"><img src="assets/imgs/plants/' . $plants[4][2] .'"></a>';
+				for ($count = 0; $count <= 3; $count++){
+					echo '<a href="plant.php?id=' . $count . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[$count][2] .'"></a>';
+				}
 			?>
+			
+			<br>
+
+			<a href="plants.php" class="accent">More Plants</a>
 		</div>
 
 		<?php include('assets/php/scripts.php'); ?>

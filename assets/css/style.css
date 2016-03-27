@@ -173,6 +173,8 @@ select {
   .image_wrapper.main {
     width: 250px;
     height: 250px; }
+  .image_wrapper.more_plants {
+    margin: 0px 10px; }
   .image_wrapper img {
     width: 100%; }
 

@@ -2,6 +2,7 @@
 	$plants =   [
 					['Kale','Latin','kale.jpg'],	
 					['Poppy','Latin','kale.jpg'],
-					['Manzanita','Latin','kale.jpg']
+					['Manzanita','Latin','kale.jpg'],
+					['Potato','Latin','kale.jpg']
 				];
 ?>

@@ -2,6 +2,12 @@ $(function(){
 	initialize_mobile_menu();
 
 	initialize_location_picker();
+
+	$('#favorite').click(function(e){
+		set_favorite(this);
+	});
+
+	initialize_favorites_link();
 });
 
 function initialize_location_picker(){
@@ -50,6 +56,29 @@ function initialize_mobile_menu(){
 
 		$('header nav').toggleClass('visible-y');
 	});
+}
+
+function initialize_favorites_link(){
+	$('#favorite_link').attr('href','favorites.php?ids=' + Cookies.get('favorites'))
+}
+
+function set_favorite(target){
+	if ( Cookies.get('favorites') != undefined ){
+		var current_favorites = Cookies.get('favorites') + ',';
+	} else{
+		var current_favorites = '';
+	}
+
+	current_favorites = current_favorites.replace('undefined','')
+	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') );
+
+	$(target).text('View Favorites').prop('onclick', null).removeAttr('onclick');
+
+	$(target).click(function(){
+		window.location = 'favorites.php?ids=' + Cookies.get('favorites');
+	});
+
+	initialize_favorites_link();
 }
 
 function animate($el, attrs, speed) {

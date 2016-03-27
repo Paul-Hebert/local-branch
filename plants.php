@@ -17,13 +17,7 @@
 				$plant_count = 0;
 
 				foreach ($plants as $plant) {
-					echo '<a class="plant_preview" href="plant.php?id=' . $plant_count . '">
-						<div class="image_wrapper"><img src="assets/imgs/plants/' . $plant[2] .'"></div>
-						<span class="preview_details">
-							<div class="name">' . $plant[0] . '</div>
-							<div class="latin_name">' . $plant[1] . '</div>
-						</span>
-					</a>';
+					include('assets/php/plant_preview.php');
 
 					$plant_count ++;
 				}
