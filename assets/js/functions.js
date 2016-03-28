@@ -7,6 +7,19 @@ $(function(){
 		set_favorite(this);
 	});
 
+	$('#clear_favorites').click(function(e){
+		Cookies.remove('favorites');
+		initialize_favorites_link();
+
+		var request = $.ajax({
+		     type: "POST",
+		     url: 'assets/php/empty.php',
+		     success: function(data) {
+				$('#favorites').html(data);			
+			}
+		});
+	});	
+
 	initialize_favorites_link();
 });
 

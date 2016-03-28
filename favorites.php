@@ -7,21 +7,21 @@
 		<div class="main-content" id="home">
 			<h1>Favorites</h1>
 
-			<?php 
-				if ($_GET['ids'] === undefined){
-					echo '
-						<p>You don\'t have any plants in your favorites.</p>
-						<a href="plants.php" class="button">View Plants</a>
-					';
-				} else{
-					$plant_ids = array_unique( explode(',', $_GET['ids']) );
+			<div id="favorites">
+				<?php 
+					if ($_GET['ids'] === undefined){
+						include('assets/php/empty.php');
+					} else{
+						$plant_ids = array_unique( explode(',', $_GET['ids']) );
 
-					foreach ($plant_ids as $plant_count) {
-						include('assets/php/plant_preview.php');
+						foreach ($plant_ids as $plant_count) {
+							include('assets/php/plant_preview.php');
+						}
+
+						echo '<span class="button" id="clear_favorites">Clear Favorites</span>';
 					}
-				}
-			?>
-
+				?>
+			</div>
 		</div>
 
 		<?php include('assets/php/scripts.php'); ?>

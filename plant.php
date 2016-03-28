@@ -22,7 +22,7 @@
 
 			<?php 
 				echo '
-					<a class="button" href="share.php?id=' . $id . '">Share</a>
+					<!--<a class="button" href="share.php?id=' . $id . '">Share</a>-->
 					<a class="button" id="favorite" data-id="' . $id . '">Favorite</a>
 				';
 

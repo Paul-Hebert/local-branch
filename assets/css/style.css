@@ -198,6 +198,9 @@ select {
   .image_wrapper img {
     width: 100%; }
 
+#clear_favorites {
+  margin-top: 16pt; }
+
 body, body * {
   box-sizing: border-box; }
 
