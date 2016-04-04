@@ -27,13 +27,17 @@
 				';
 
 				for ($count = 0; $count <= 3; $count++){
-					echo '<a href="plant.php?id=' . $count . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[$count][2] .'"></a>';
+					if ( $count == $id ){
+						echo '<a href="plant.php?id=' . (count($plants) - 1) . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[count( $plants ) - 1 ][2] .'"></a>';						
+					} else{
+						echo '<a href="plant.php?id=' . $count . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[$count][2] .'"></a>';
+					}
 				}
 			?>
 			
 			<br>
 
-			<a href="plants.php" class="accent">Similar Plants</a>
+			<a href="plants.php" class="accent">Other Plants</a>
 		</div>
 
 		<?php include('assets/php/scripts.php'); ?>

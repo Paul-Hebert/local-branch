@@ -24,6 +24,6 @@
 				<a href="locations.php">Locations</a>
 				<a href="plants.php">Plants</a>
 				<a href="favorites.php" id="favorite_link">Favorites</a>
-				<a href="contact.php">Contact</a>
+				<!--<a href="contact.php">Contact</a>-->
 			</nav>
 		</header>

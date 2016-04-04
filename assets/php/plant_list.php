@@ -5,13 +5,13 @@
 					['Mojito Mint','Mentha villosa','mint.jpg'],	
 					['Red Cedar','Thuja plicata','cedar.jpg'],					
 					['Flowering Kale','Brassica oleracea','kale.jpg'],							
-					['Cactus','Local','cactus1.jpg'],						
-					['Cactus','Local','cactus2.jpg'],						
+					['Cactus','Fakus Namus','cactus1.jpg'],						
+					['Cactus','Fakus Namus','cactus2.jpg'],						
 					['Rosemary','Rosmarinus officinalis','rosemary.jpg'],						
-					['Fern','Latin','fern.jpg'],					
-					['Cactus','Local','cactus3.jpg'],															
-					['Succulent','Local','succulent.jpg'],															
-					['Flower','Local','flower.jpg'],															
-					['Pepper','Latin','pepper.jpg']
+					['Fern','Fakus Namus','fern.jpg'],					
+					['Cactus','Fakus Namus','cactus3.jpg'],															
+					['Succulent','Fakus Namus','succulent.jpg'],															
+					['Flower','Fakus Namus','flower.jpg'],															
+					['Pepper','Fakus Namus','pepper.jpg']
 				];
 ?>
