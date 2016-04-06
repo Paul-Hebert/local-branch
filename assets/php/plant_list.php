@@ -172,6 +172,15 @@
 						 ['counties'] 
 					],
 					[
+						'Mescal',
+						'Agave deserti',
+						'300px-Agave_desertii_1.jpg',
+						'landscape',
+						'Succulents',
+						'Agave deserti (Desert Agave, Mescal, Century Plant or Maguey) is an agave native to desert regions in southern California, Arizona, and Baja California. Its tall yellow flower stalks dot dry rocky slopes and washes throughout the spring.',
+						 ['counties'] 
+					],
+					[
 						'Giant Sequoia',
 						'Sequoiadendron giganteum',
 						'440px-GreenSeedConesSequoiadendronGiganteum.JPG',

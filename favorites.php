@@ -20,7 +20,7 @@
 
 						echo '<span class="button" id="clear_favorites">Clear Favorites</span>';
 
-						echo '<citation><a href="http://www.wikipedia.com">Images courtesy of Wikipedia.</a></citation>';
+						echo '<citation>Images courtesy of <a href="http://www.wikipedia.com">Wikipedia</a> under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a></citation>';
 					}
 				?>
 			</div>
