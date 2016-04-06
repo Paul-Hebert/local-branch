@@ -19,6 +19,8 @@
 						}
 
 						echo '<span class="button" id="clear_favorites">Clear Favorites</span>';
+
+						echo '<citation><a href="http://www.wikipedia.com">Images courtesy of Wikipedia.</a></citation>';
 					}
 				?>
 			</div>

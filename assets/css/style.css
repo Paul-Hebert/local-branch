@@ -191,8 +191,10 @@ select {
     height: 250px; }
   .image_wrapper.more_plants {
     margin: 0px 5px; }
-  .image_wrapper img {
+  .image_wrapper img.portrait {
     width: 100%; }
+  .image_wrapper img.landscape {
+    height: 100%; }
 
 #clear_favorites {
   margin-top: 16pt; }
@@ -262,6 +264,10 @@ header {
     width: 80px;
     position: relative;
     top: 25px; }
+
+citation {
+  padding: 20px;
+  display: block; }
 
 .mobile {
   display: none; }

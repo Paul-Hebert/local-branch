@@ -29,6 +29,8 @@
 				}
 
 			?>
+
+			<citation><a href="http://www.wikipedia.com">Images courtesy of Wikipedia.</a></citation>
 		</div>
 
 		<?php include('assets/php/scripts.php'); ?>

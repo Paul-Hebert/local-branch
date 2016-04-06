@@ -13,12 +13,13 @@
 ?>
 		<div class="main-content">
 			<?php 
-			echo '<div class="image_wrapper main"><img src="assets/imgs/plants/' . $plants[$id][2] .'"></div>
+			echo '<div class="image_wrapper main"><img src="assets/imgs/plants/' . $plants[$id][2] .'" class="' . $plants[$id][3] . '"></div>
 				<h1 class="name">' . $title .'</h1>';
 			 ?>
 			<p class="latin_name"><?php echo $latin_name; ?></p>
 
-			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="description"><?php echo $plants[$id][5] ?></p>
+
 
 			<?php 
 				echo '
@@ -28,16 +29,16 @@
 
 				for ($count = 0; $count <= 3; $count++){
 					if ( $count == $id ){
-						echo '<a href="plant.php?id=' . (count($plants) - 1) . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[count( $plants ) - 1 ][2] .'"></a>';						
+						echo '<a href="plant.php?id=' . (count($plants) - 1) . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[count( $plants ) - 1 ][2] .'" class="' . $plants[count( $plants ) - 1 ][3] . '"></a>';						
 					} else{
-						echo '<a href="plant.php?id=' . $count . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[$count][2] .'"></a>';
+						echo '<a href="plant.php?id=' . $count . '" class="image_wrapper more_plants"><img src="assets/imgs/plants/' . $plants[$count][2] .'" class="' . $plants[count( $plants ) - 1 ][3] . '"></a>';
 					}
 				}
 			?>
 			
 			<br>
 
-			<a href="plants.php" class="accent">Other Plants</a>
+			<citation><a href="http://www.wikipedia.com">Images and information courtesy of Wikipedia.</a></citation>
 		</div>
 
 		<?php include('assets/php/scripts.php'); ?>

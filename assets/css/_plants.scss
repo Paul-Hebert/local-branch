@@ -65,7 +65,12 @@
 	}
 
 	img{
-		width:100%;
+		&.portrait{
+			width:100%;
+		}
+		&.landscape{
+			height:100%;
+		}
 	}
 }
 
