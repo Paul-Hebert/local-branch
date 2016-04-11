@@ -199,6 +199,9 @@ select {
 #clear_favorites {
   margin-top: 16pt; }
 
+citation a {
+  text-decoration: underline; }
+
 body, body * {
   box-sizing: border-box; }
 

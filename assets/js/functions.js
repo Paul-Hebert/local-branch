@@ -85,10 +85,29 @@ function set_favorite(target){
 	current_favorites = current_favorites.replace('undefined','')
 	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') );
 
-	$(target).text('View Favorites').prop('onclick', null).removeAttr('onclick');
+	$(target).text('Unfavorite').prop('onclick', null).removeAttr('onclick');
 
 	$(target).click(function(){
-		window.location = 'favorites.php?ids=' + Cookies.get('favorites');
+		remove_favorite();
+	});
+
+	initialize_favorites_link();
+}
+
+function set_favorite(target){
+	/*if ( Cookies.get('favorites') != undefined ){
+		var current_favorites = Cookies.get('favorites') + ',';
+	} else{
+		var current_favorites = '';
+	}
+
+	current_favorites = current_favorites.replace('undefined','')
+	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') );*/
+
+	$(target).text('Favorite').prop('onclick', null).removeAttr('onclick');
+
+	$(target).click(function(){
+		set_favorite();
 	});
 
 	initialize_favorites_link();

@@ -191,8 +191,6 @@
 					]
 				];			
 
-	shuffle($plants);
-
 	// Categories: Trees, Shrubs, Flowers, Grasses, Cacti, Succulents
 ?>
 

@@ -6,4 +6,4 @@
 							<div class="latin_name">' . $plants[$plant_count][1] . '</div>
 						</span>
 					</a>';
-				?>
+				?> 
