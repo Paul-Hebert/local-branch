@@ -144,7 +144,8 @@ select {
   background: -webkit-linear-gradient(90deg, #87C540 0%, #7DCA95 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(-90deg, #87C540 0%, #7DCA95 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  opacity: 1; }
   .plant_preview:nth-of-type(even) {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87c540+0,75ccd2+100 */
     background: #87C540;
@@ -155,6 +156,8 @@ select {
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(90deg, #87C540 0%, #7DCA95 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+  .plant_preview:hover {
+    opacity: .9; }
   .plant_preview .preview_details {
     position: absolute;
     left: 76px;

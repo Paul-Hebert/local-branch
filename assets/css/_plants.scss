@@ -14,6 +14,12 @@
 		@include background-gradient(-90deg,90deg);				
 	}
 
+	opacity:1;
+
+	&:hover{
+		opacity:.9;
+	}
+
 	.preview_details{
 		position:absolute;
 		left: 76px;
