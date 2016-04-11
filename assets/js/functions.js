@@ -3,9 +3,7 @@ $(function(){
 
 	initialize_location_picker();
 
-	$('#favorite').click(function(e){
-		favorite(this);
-	});
+	set_favorite_function('#favorite');
 
 	$('#clear_favorites').click(function(e){
 		Cookies.remove('favorites');
@@ -75,15 +73,32 @@ function initialize_favorites_link(){
 	$('#favorite_link').attr('href','favorites.php?ids=' + Cookies.get('favorites'))
 }
 
+function set_favorite_function(target){
+	var current_favorites = Cookies.get('favorites');
+
+	console.log(current_favorites.indexOf( ',' + $(target).attr('data-id') + ',' ));
+
+	if( current_favorites.indexOf( ',' + $(target).attr('data-id') + ',' ) > -1 ){
+		$(target).text('Unfavorite');
+		$(target).click(function(){
+			unfavorite(target);
+		});
+	}else{
+		$(target).click(function(){		
+			favorite(target);
+		});		
+	}
+}
+
 function favorite(target){
 	if ( Cookies.get('favorites') != undefined ){
 		var current_favorites = Cookies.get('favorites') + ',';
 	} else{
-		var current_favorites = '';
+		var current_favorites = ',';
 	}
 
 	current_favorites = current_favorites.replace('undefined','');
-	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id'));
+	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') + ',');
 
 	$(target).text('Unfavorite');
 	$(target).unbind( "click" );
@@ -98,7 +113,8 @@ function favorite(target){
 function unfavorite(target){
 	var current_favorites = Cookies.get('favorites');
 
-	current_favorites = current_favorites.replace( new RegExp( $(target).attr('data-id'), 'g' ), '');
+	current_favorites = current_favorites.replace( new RegExp(',' + $(target).attr('data-id') + ',' , 'g' ),'');
+	current_favorites = current_favorites.replace( new RegExp(',,' , 'g' ),',');
 
 	Cookies.set( 'favorites', current_favorites);
 
@@ -112,6 +128,7 @@ function unfavorite(target){
 	initialize_favorites_link();
 }
 
+// Borrowed animate function works on SVG hamburger icon.
 function animate($el, attrs, speed) {
     speed = speed || 400;
     var start = {},
