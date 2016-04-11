@@ -76,17 +76,21 @@ function initialize_favorites_link(){
 function set_favorite_function(target){
 	var current_favorites = Cookies.get('favorites');
 
-	console.log(current_favorites.indexOf( ',' + $(target).attr('data-id') + ',' ));
-
-	if( current_favorites.indexOf( ',' + $(target).attr('data-id') + ',' ) > -1 ){
-		$(target).text('Unfavorite');
-		$(target).click(function(){
-			unfavorite(target);
-		});
-	}else{
+	if(current_favorites !== undefined ){
+		if( current_favorites.indexOf( ',' + $(target).attr('data-id') + ',' ) > -1 ){
+			$(target).text('Unfavorite');
+			$(target).click(function(){
+				unfavorite(target);
+			});
+		}else{
+			$(target).click(function(){		
+				favorite(target);
+			});		
+		}		
+	} else{
 		$(target).click(function(){		
 			favorite(target);
-		});		
+		});	
 	}
 }
 
@@ -114,7 +118,6 @@ function unfavorite(target){
 	var current_favorites = Cookies.get('favorites');
 
 	current_favorites = current_favorites.replace( new RegExp(',' + $(target).attr('data-id') + ',' , 'g' ),'');
-	current_favorites = current_favorites.replace( new RegExp(',,' , 'g' ),',');
 
 	Cookies.set( 'favorites', current_favorites);
 
