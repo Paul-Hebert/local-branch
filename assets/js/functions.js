@@ -4,7 +4,7 @@ $(function(){
 	initialize_location_picker();
 
 	$('#favorite').click(function(e){
-		set_favorite(this);
+		favorite(this);
 	});
 
 	$('#clear_favorites').click(function(e){
@@ -75,7 +75,7 @@ function initialize_favorites_link(){
 	$('#favorite_link').attr('href','favorites.php?ids=' + Cookies.get('favorites'))
 }
 
-function set_favorite(target){
+function favorite(target){
 	if ( Cookies.get('favorites') != undefined ){
 		var current_favorites = Cookies.get('favorites') + ',';
 	} else{
@@ -85,29 +85,22 @@ function set_favorite(target){
 	current_favorites = current_favorites.replace('undefined','')
 	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') );
 
-	$(target).text('Unfavorite').prop('onclick', null).removeAttr('onclick');
+	$(target).text('Unfavorite');
+	$(target).unbind( "click" );
 
 	$(target).click(function(){
-		remove_favorite();
+		unfavorite(target);
 	});
 
 	initialize_favorites_link();
 }
 
-function set_favorite(target){
-	/*if ( Cookies.get('favorites') != undefined ){
-		var current_favorites = Cookies.get('favorites') + ',';
-	} else{
-		var current_favorites = '';
-	}
-
-	current_favorites = current_favorites.replace('undefined','')
-	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') );*/
-
-	$(target).text('Favorite').prop('onclick', null).removeAttr('onclick');
+function unfavorite(target){
+	$(target).text('Favorite');
+	$(target).unbind( "click" );
 
 	$(target).click(function(){
-		set_favorite();
+		favorite(target);
 	});
 
 	initialize_favorites_link();
