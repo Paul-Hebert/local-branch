@@ -9,13 +9,15 @@
 
 			<div id="favorites">
 				<?php 
-					if ($_GET['ids'] === undefined){
+					if ($_GET['ids'] === undefined || $_GET['ids'] === ''){
 						include('assets/php/empty.php');
 					} else{
 						$plant_ids = array_unique( explode(',', $_GET['ids']) );
 
 						foreach ($plant_ids as $plant_count) {
-							include('assets/php/plant_preview.php');
+							if ($plant_count !== ''){
+								include('assets/php/plant_preview.php');
+							}
 						}
 
 						echo '<span class="button" id="clear_favorites">Clear Favorites</span>';

@@ -82,8 +82,8 @@ function favorite(target){
 		var current_favorites = '';
 	}
 
-	current_favorites = current_favorites.replace('undefined','')
-	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id') );
+	current_favorites = current_favorites.replace('undefined','');
+	Cookies.set( 'favorites', current_favorites + $(target).attr('data-id'));
 
 	$(target).text('Unfavorite');
 	$(target).unbind( "click" );
@@ -96,6 +96,12 @@ function favorite(target){
 }
 
 function unfavorite(target){
+	var current_favorites = Cookies.get('favorites');
+
+	current_favorites = current_favorites.replace( new RegExp( $(target).attr('data-id'), 'g' ), '');
+
+	Cookies.set( 'favorites', current_favorites);
+
 	$(target).text('Favorite');
 	$(target).unbind( "click" );
 
