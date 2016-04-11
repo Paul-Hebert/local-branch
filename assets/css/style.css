@@ -278,6 +278,15 @@ citation {
 .mobile {
   display: none; }
 
+#mobile_modal {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  z-index: 5; }
+
 @media (max-width: 650px) {
   svg, img {
     max-width: 100%; }

@@ -27,3 +27,5 @@
 				<!--<a href="contact.php">Contact</a>-->
 			</nav>
 		</header>
+
+		<img src="assets/imgs/transparency30.png" id="mobile_modal">

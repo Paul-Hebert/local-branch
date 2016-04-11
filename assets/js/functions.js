@@ -46,8 +46,10 @@ function initialize_mobile_menu(){
 
 		if ( $('#menu-toggle svg').attr('class') === 'open' ){
 			$('#menu-toggle svg').attr('class','');
+			$('#mobile_modal').fadeOut();
 		} else{
 			$('#menu-toggle svg').attr('class','open');
+			$('#mobile_modal').fadeIn();			
 		}
 
 		var first_y = $('.first-line').attr('y2');
