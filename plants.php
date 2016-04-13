@@ -31,7 +31,21 @@
 
 				foreach ($plants as $plant) {
 					if ($type === 'All' || $type === $plant[4]){
-						include('assets/php/plant_preview.php');
+						$native = false;
+						
+						if ($county === 'California'){
+							$native = true;
+						} else{
+							foreach($plant[6] as $plant_county){
+								if ($plant_county . ' County' === $county){
+									$native = true;
+								}
+							}						
+						}
+
+						if ($native === true){
+							include('assets/php/plant_preview.php');						
+						}
 					}
 
 					$plant_count ++;

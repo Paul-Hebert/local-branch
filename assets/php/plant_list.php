@@ -295,7 +295,7 @@
 						'landscape',
 						'Herbs',
 						'Asarum caudatum (British Columbia wild ginger, western wild ginger, or long-tailed wild ginger) is native to rich moist forests of western North America from British Columbia to California and as far east as western Montana. Asarum caudatum is an evergreen with flowers that develop from March to August. The flowers are distinct hirsute (hairy) cup-shaped, that are brown-purple to green-yellow which terminate in three long gracefully curved lobes, often concealed by leaves. The long rhizomes give rise to persistent reniform (kidney/heart shaped) leaves. Leaves are found in colonies or clusters as the rhizome spreads, forming mats. The leaves emit a ginger aroma when rubbed.',
-						 ['counties'] 
+						 ['Alameda','Contra Costa','Del Norte','El Dorado','Humboldt','Lake','Madera','Mendocino','Marin','Napa','Santa Clara','Santa Cruz','San Francisco','Shasta','Siskiyou','San Mateo','Sonoma','Tehama','Trinity'] 
 					],
 					[
 						'Pacific Bleeding Heart',
@@ -304,7 +304,7 @@
 						'portrait',
 						'Flowers',
 						'Dicentra formosa (western, wild or Pacific bleeding heart) is a flowering plant with fern-like leaves and an inflorescence of drooping pink, purple, yellow or cream flowers native to the Pacific Coast of North America.',
-						 ['counties'] 
+						 ['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Lake','Los Angeles','Madera','Mendocino','Monterey','Mariposa','Marin','Napa','Nevada','Placer','Plumas','Riverside','Santa Clara','Santa Cruz','San Francisco','Shasta','Sierra','Siskiyou','SanMateo','Sonoma','Tehama','Trinity','Tulare','Tuolumne','Yuba'] 
 					],
 					[
 						'Redwood Sorrel',
@@ -313,16 +313,7 @@
 						'landscape',
 						'Flowers',
 						'Oxalis oregana (redwood sorrel, Oregon oxalis) is a species of the wood sorrel family, Oxalidaceae, native to moist Douglas-fir and coast redwood forests of western North America from southwestern British Columbia, Washington, Oregon, and California. Redwood sorrel, Oxalis oregana, photosynthesises at relatively low levels of ambient light (1/200th of full sunlight). When direct sunlight strikes the leaves they fold downwards; when shade returns, the leaves reopen. Taking only a few minutes, this movement is observable to the eye.',
-						 ['counties'] 
-					],
-					[
-						'Hairy Alumroot',
-						'Heuchera villosa',
-						'440px-Hairy_Alumroot_Heuchera_villosa_Purple_Form_Leaf_1900px.JPG',
-						'landscape',
-						'',
-						'Heuchera villosa, the hairy alumroot, is a small evergreen perennial native to Appalachia. and the Northeastern, Southeastern, and parts of Central United States.',
-						 ['counties'] 
+						 ['Alameda','Butte','Del Norte','Humboldt','Mendocino','Monterey','Marin','Napa','Santa Clara','Santa Cruz','San Francisco','San Mateo','Sonoma','Trinity'] 
 					],
 					[
 						'Baby Blue Eyes',
