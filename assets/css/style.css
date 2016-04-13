@@ -172,7 +172,8 @@ select {
   margin-bottom: 0px; }
 
 .latin_name {
-  text-align: right; }
+  text-align: right;
+  text-transform: capitalize; }
 
 .description {
   text-align: left; }

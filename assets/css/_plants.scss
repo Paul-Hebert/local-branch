@@ -46,6 +46,7 @@
 .latin_name{
 	text-align:right;
 	@extend .accent;
+	text-transform:capitalize;
 }
 
 .description{

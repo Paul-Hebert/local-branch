@@ -215,6 +215,123 @@
 						'Ferns',
 						'Woodwardia fimbriata, known by the common name giant chain fern, is a fern species in the family Blechnaceae, in the eupolypods II clade of the order Polypodiales, in the class Polypodiopsida. It is native to western North America from British Columbia through California, including the Sierra Nevada, into Baja California. It grows in coniferous forests and other moist wooded habitat.',
 						 ['counties'] 
+					],
+					[
+						'Morning Glory',
+						'Calystegia',
+						'440px-Calystegia_soldanella_060524wb.jpg',
+						'landscape',
+						'Flowers',
+						'Calystegia (bindweed, false bindweed, or morning glory) is a genus of about 25 species of flowering plants in the bindweed family Convolvulaceae. The genus has a cosmopolitan distribution in temperate and subtropical regions, but with half of the species endemic to California. They are annual or herbaceous perennial twining vines growing to 1-5 m tall, with spirally arranged leaves. The flowers are trumpet-shaped, 3-10 cm diameter, white or pink, with a sometimes inflated basal calyx.',
+						 ['counties'] 
+					],
+					[
+						'Creosote Bush',
+						'Larrea tridentata',
+						'500px-Larrea_tridentata_3.jpg',
+						'landscape',
+						'Shrubs',
+						'Larrea tridentata is known as creosote bush and greasewood as a plant, chaparral as a medicinal herb, and as "gobernadora" in Mexico, Spanish for "governess," due to its ability to secure more water by inhibiting the growth of nearby plants. In Sonora, it is more commonly called "hediondilla." It is a flowering plant in the family Zygophyllaceae. The name \'tridentata\' refers to its three-toothed leaves.',
+						 ['counties'] 
+					],
+					[
+						'California Fan Palm',
+						'Washingtonia filifera',
+						'440px-Washingtonia_filifera.jpg',
+						'portrait',
+						'Trees',
+						'Washingtonia filifera, also known as desert fan palm or California fan palm or California palm, is a flowering plant in the palm family (Arecaceae), and native to the southwestern U.S. and Baja California. Growing to 15–20 m (49–66 ft) tall by 3–6 m (10–20 ft) broad, it is an evergreen monocot with a tree-like growth habit. It has a sturdy columnar trunk and waxy fan-shaped (palmate) leaves.',
+						 ['counties'] 
+					],
+					[
+						'Desert Sand-Verbana',
+						'Abronia villosa',
+						'440px-Abronia_villosa_WPC.jpg',
+						'landscape',
+						'Flowers',
+						'Abronia villosa is a species of sand-verbena known by the common names desert sand-verbena and chaparral sand-verbena. It is in the four o\'clock plant family (Nyctaginaceae). It is native to the deserts of the southwestern United States and northern Mexico and the southern California and Baja coast.',
+						 ['counties'] 
+					],
+					[
+						'Ocotillo',
+						'Fouquieria splendens',
+						'Ocotillo_GB.jpg',
+						'portrait',
+						'Cacti',
+						'Fouquieria splendens (commonly known as ocotillo, but also referred to as coachwhip, candlewood, slimwood, desert coral, Jacob\'s staff, Jacob cactus, and vine cactus) is a plant indigenous to the Sonoran Desert and Chihuahuan Desert in the Southwestern United States (southern California, southern Nevada, Arizona, New Mexico, western Texas), and northern Mexico (as far south as Hidalgo and Guerrero).',
+						 ['counties'] 
+					],
+					[
+						'Alamo Cottonwood',
+						'Populus fremontii',
+						'440px-Cottonwood_at_Zion_Lodge.jpg',
+						'portrait',
+						'Trees',
+						'Populus fremontii is a large tree growing from 12 m (39 ft) - 35 m (115 ft) in height with a wide crown, with a trunk up to 1.5 m (4.9 ft) in diameter. The bark is smooth when young, becoming deeply fissured with whitish cracked bark on old trees. The 3 cm (1.2 in) - 7 cm (2.8 in) long leaves, are cordate (heart-shaped) with an elongate tip, with white veins and coarse crenate teeth along the sides, glabrous to hairy, and often stained with milky resin. Autumn colors occur from October–November, mainly a bright yellow, also orange, rarely red.',
+						 ['counties'] 
+					],
+					[
+						'Superstition Mallow',
+						'Abutilon palmeri',
+						'440px-Abutilon_palmeri_flower_2002-10-14.jpg',
+						'portrait',
+						'Shrubs',
+						'Abutilon palmeri is a dense, round shrub growing 3–8 feet (0.91–2.44 m) high by 2–5 feet (0.61–1.52 m) wide. Branch and stem parts are also pubescent with red-brown coloring to twigs; bark ranging green to brown. The foliage is characterised by velvety heart-shaped (nearly round to cordate) leaves forming as alternates at meristems. The leaves are serrate, remarkable for dense woolly texture; pubescent; maintains velvety texture and bluish gray-green above and below. The flowers are yellow (5 petals; yellow to orange) and cup-shaped; approximately one inch in size. Plant blooms for most of summer. The plant produces a small fruit (1/2 inch approximate diameter); the fruit is round, capsular and multi-parted and covered with silky pubescence similar to foliage.',
+						 ['counties'] 
+					],
+					[
+						'Columbine',
+						'Aquilegia',
+						'440px-Aquilegia_columbine_magpie_cultivar_2.jpg',
+						'landscape',
+						'Flowers',
+						'Columbine is a hardy perennial, which propagates by seed. It will grow to a height of 15 to 20 inches. It will grow in full sun; however, it prefers growing in partial shade and well drained soil, and is able to tolerate average soils and dry soil conditions. Columbine is rated at hardiness zone 3 in the USA so does not require mulching or protection in the winter.',
+						 ['counties'] 
+					],
+					[
+						'Western Wild Ginger',
+						'Asarum Caudatum',
+						'440px-Asarum_caudatum_10993.JPG',
+						'landscape',
+						'Herbs',
+						'Asarum caudatum (British Columbia wild ginger, western wild ginger, or long-tailed wild ginger) is native to rich moist forests of western North America from British Columbia to California and as far east as western Montana. Asarum caudatum is an evergreen with flowers that develop from March to August. The flowers are distinct hirsute (hairy) cup-shaped, that are brown-purple to green-yellow which terminate in three long gracefully curved lobes, often concealed by leaves. The long rhizomes give rise to persistent reniform (kidney/heart shaped) leaves. Leaves are found in colonies or clusters as the rhizome spreads, forming mats. The leaves emit a ginger aroma when rubbed.',
+						 ['counties'] 
+					],
+					[
+						'Pacific Bleeding Heart',
+						'Dicentra Formosa',
+						'440px-DicentraBachanal.jpg',
+						'portrait',
+						'Flowers',
+						'Dicentra formosa (western, wild or Pacific bleeding heart) is a flowering plant with fern-like leaves and an inflorescence of drooping pink, purple, yellow or cream flowers native to the Pacific Coast of North America.',
+						 ['counties'] 
+					],
+					[
+						'Redwood Sorrel',
+						'Oxalis oregana',
+						'440px-Oxalis_oregana_001.jpg',
+						'landscape',
+						'Flowers',
+						'Oxalis oregana (redwood sorrel, Oregon oxalis) is a species of the wood sorrel family, Oxalidaceae, native to moist Douglas-fir and coast redwood forests of western North America from southwestern British Columbia, Washington, Oregon, and California. Redwood sorrel, Oxalis oregana, photosynthesises at relatively low levels of ambient light (1/200th of full sunlight). When direct sunlight strikes the leaves they fold downwards; when shade returns, the leaves reopen. Taking only a few minutes, this movement is observable to the eye.',
+						 ['counties'] 
+					],
+					[
+						'Hairy Alumroot',
+						'Heuchera villosa',
+						'440px-Hairy_Alumroot_Heuchera_villosa_Purple_Form_Leaf_1900px.JPG',
+						'landscape',
+						'',
+						'Heuchera villosa, the hairy alumroot, is a small evergreen perennial native to Appalachia. and the Northeastern, Southeastern, and parts of Central United States.',
+						 ['counties'] 
+					],
+					[
+						'Baby Blue Eyes',
+						'Nemophila menziesii',
+						'Baby_blue-eyes,_Calf_Canyon.jpg',
+						'landscape',
+						'Herbs',
+						'Nemophila menziesii, known commonly as baby blue eyes or baby\'s-blue-eyes, is an annual herb, native to western North America. It grows virtually throughout California at elevations from sea level up to almost 6,500 feet (2,000 m). It grows in many types of habitats, including chaparral, valley grasslands, and montane locales.',
+						 ['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Imperial','Inyo','Kern','Lake','Los Angeles','Madera','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Nevada','Orange','Placer','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					]
 				];			
 

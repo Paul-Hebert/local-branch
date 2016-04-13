@@ -7,13 +7,17 @@
 		$county = 'California';
 	}
 
-	if( isset($_GET['type']) ){
+	if( isset($_GET['type']) && $_GET['type'] !== '' ){
 		$type = $_GET['type'];
 	} else{
 		$type = 'All';
 	}	
 
-	$title = 'Plants in ' . $county;
+	if ($type === 'All'){
+		$title = 'Plants in ' . $county;
+	} else{
+		$title = $type . ' in ' . $county;		
+	}
 	include('assets/php/header.php');
 ?>
 
