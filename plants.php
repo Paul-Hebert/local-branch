@@ -23,7 +23,11 @@
 
 		<div class="main-content">
 			<?php 
-				echo '<h1>Plants in <span id="county">' . $county . '</span></h1>';
+				if ($type === 'All'){
+					echo '<h1>Plants in <span id="county">' . $county . '</span></h1>';
+				} else{
+					echo '<h1>' . $type . ' in <span id="county">' . $county . '</span></h1>';
+				}
 
 				include('assets/php/plant_type_dropdown.php');
 

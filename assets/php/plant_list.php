@@ -286,7 +286,7 @@
 						'landscape',
 						'Flowers',
 						'Columbine is a hardy perennial, which propagates by seed. It will grow to a height of 15 to 20 inches. It will grow in full sun; however, it prefers growing in partial shade and well drained soil, and is able to tolerate average soils and dry soil conditions. Columbine is rated at hardiness zone 3 in the USA so does not require mulching or protection in the winter.',
-						 ['counties'] 
+						 ['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte ','El Dorado','Fresno','Humboldt','Inyo','Kern ','Lake','Lassen','Los Angeles','Madera','Mendocino','Mono','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Placer','Plumas','Riverside ','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta ','Sierra','Siskiyou ','San Luis Obispo','San Mateo','Solano','Sonoma','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'Western Wild Ginger',
