@@ -79,7 +79,6 @@ function initialize_mobile_menu(){
 	        300 // optional duration in ms, defaults to 400
 	    );
 
-
 		$('header nav').toggleClass('visible-y');
 	});
 }

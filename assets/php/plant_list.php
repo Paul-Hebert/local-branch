@@ -188,9 +188,45 @@
 						'Trees',
 						'Giant sequoias are the world\'s largest single trees and largest living thing by volume. Giant sequoias grow to an average height of 50–85 m (164–279 ft) and 6–8 m (20–26 ft) in diameter. Record trees have been measured to be 94.8 m (311 ft) in height and over 17 m (56 ft) in diameter. The oldest known giant sequoia based on ring count is 3,500 years old. Giant Sequoias are among the oldest living things on Earth. Sequoia bark is fibrous, furrowed, and may be 90 cm (3.0 ft) thick at the base of the columnar trunk. It provides significant fire protection for the trees. The leaves are evergreen, awl-shaped, 3–6 millimetres (0.12–0.24 in) long, and arranged spirally on the shoots. The seed cones are 4–7 centimetres (1.6–2.8 in) long and mature in 18–20 months, though they typically remain green and closed for up to 20 years; each cone has 30–50 spirally arranged scales, with several seeds on each scale, giving an average of 230 seeds per cone. The seed is dark brown, 4–5 millimetres (0.16–0.20 in) long and 1 millimetre (0.039 in) broad, with a 1-millimetre (0.039 in) wide, yellow-brown wing along each side. Some seeds are shed when the cone scales shrink during hot weather in late summer, but most are liberated when the cone dries from fire heat or is damaged by insects.',
 						 ['counties'] 
+					],
+					[
+						'Sacred Datura',
+						'Datura wrightii',
+						'440px-Datura_wrightii_flower2.jpg',
+						'portrait',
+						'Flowers',
+						'Datura wrightii or sacred datura is the name of a poisonous perennial plant and ornamental flower of southwestern North America. It is sometimes used as a hallucinogen. D. wrightii is classified as a deliriant and an anticholinergic. It is a vigorous herbaceous perennial that grows 30 cm to 1.5 m tall and wide. The leaves are broad and rounded at the base, tapering to a point, often with wavy margins. The flowers are the most striking feature, being sweetly fragrant white trumpets up to 20 cm (7.9 in) long, often tinted purple, especially at the margin. Five narrow points are spaced symmetrically around the rim. It can bloom from April to October. In clear weather, flowers open at nearly full dark and wither a few hours after sunrise the following morning; in cloudy weather, they may open earlier and last longer.',
+						 ['counties'] 
+					],
+					[
+						'Coyote Mint',
+						'Monardella Hypoleuca',
+						'440px-Monardella_hypoleuca_ssp_lanata_3.jpg',
+						'portrait',
+						'Herbs',
+						'Monardella is a genus of approximately 40 species of annual and perennial plants native to western North America from British Columbia to northwestern Mexico. They are grown for their highly aromatic foliage, which in some species is used for herbal teas. The 2-lipped, tubular flowers are formed in terminal clusters and are most usually red, pink, or purple.',
+						 ['counties'] 
+					],
+					[
+						'Giant Chain Fern',
+						'Woodwardia fimbriata',
+						'440px-Woodwardiafimbriata.jpg',
+						'landscape',
+						'Ferns',
+						'Woodwardia fimbriata, known by the common name giant chain fern, is a fern species in the family Blechnaceae, in the eupolypods II clade of the order Polypodiales, in the class Polypodiopsida. It is native to western North America from British Columbia through California, including the Sierra Nevada, into Baja California. It grows in coniferous forests and other moist wooded habitat.',
+						 ['counties'] 
 					]
 				];			
 
-	// Categories: Trees, Shrubs, Flowers, Grasses, Cacti, Succulents
+	$plant_types = [
+						'Trees',
+						'Shrubs',
+						'Flowers',
+						'Cacti',
+						'Succulents',
+						'Grasses',
+						'Ferns',
+						'Herbs'
+					];
 ?>
 
