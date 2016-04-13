@@ -3,6 +3,8 @@ $(function(){
 
 	initialize_location_picker();
 
+	initialize_plant_type_picker();
+
 	set_favorite_function('#favorite');
 
 	$('#clear_favorites').click(function(e){
@@ -25,7 +27,7 @@ function initialize_location_picker(){
 	$('#map path, #map polyline, #map polygon').click(function(){
 		var county = $(this).attr('id').split('_');
 
-		window.location = 'plants.php?county=' + county[3] + '+County';
+		window.location = 'plants.php?county=' + county[3] + '+County' + '&type=All';
 	});
 
 	$('#map path, #map polyline, #map polygon').hover(function(){
@@ -36,7 +38,18 @@ function initialize_location_picker(){
 	});	
 
 	$('#county_dropdown').change(function(){
-		window.location = 'plants.php?county=' + $(this).val();		
+		var county = $(this).val()
+		var county = county.replace(/\ /g,'+');
+
+		window.location = 'plants.php?county=' + county + '&type=All';		
+	});
+}
+
+function initialize_plant_type_picker(){
+	var county = $('#county').text().replace(/\ /g,'+');
+
+	$('#plant_type_dropdown').change(function(){
+		window.location = 'plants.php?county=' + county + '&type=' + $(this).val();		
 	});
 }
 

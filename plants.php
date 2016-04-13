@@ -16,14 +16,19 @@
 	$title = 'Plants in ' . $county;
 	include('assets/php/header.php');
 ?>
+
 		<div class="main-content">
 			<?php 
-				echo '<h1>' . $title . '</h1>';
+				echo '<h1>Plants in <span id="county">' . $county . '</span></h1>';
+
+				include('assets/php/plant_type_dropdown.php');
 
 				$plant_count = 0;
 
 				foreach ($plants as $plant) {
-					include('assets/php/plant_preview.php');
+					if ($type === 'All' || $type === $plant[4]){
+						include('assets/php/plant_preview.php');
+					}
 
 					$plant_count ++;
 				}

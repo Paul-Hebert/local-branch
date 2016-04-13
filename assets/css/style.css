@@ -92,7 +92,10 @@ select {
   padding: 5px;
   background: none;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  display: block;
+  width: 100%;
+  padding: 15px; }
 
 .select_wrapper {
   -o-border-radius: 40px;
@@ -123,11 +126,6 @@ select {
     stroke: #87C540; }
     #map path:hover, #map polyline:hover, #map polygon:hover {
       fill: #87C540; }
-
-#county_dropdown {
-  display: block;
-  width: 100%;
-  padding: 15px; }
 
 .plant_preview {
   position: relative;
