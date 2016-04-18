@@ -5,7 +5,6 @@
 	@extend .box-shadow;
 	color:$dark-color;
 	display:block;
-	cursor:pointer;
 	font-size:$medium;	
 	text-decoration:none;
 	border:0px;
@@ -33,6 +32,12 @@ fieldset, label{
 	text-align:left;
 }
 
+section{
+	padding-bottom:$medium;
+	margin-bottom:$medium;
+	border-bottom:1px solid $light-color;
+}
+
 .select_wrapper{
 	@include radius(40px);	
 	background:$off-white;	
@@ -46,6 +51,10 @@ fieldset, label{
 		cursor:pointer;
 		z-index:0;
 	}
+}
+
+select, .button{
+	cursor:pointer
 }
 
 .button{

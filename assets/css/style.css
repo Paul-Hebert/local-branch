@@ -80,7 +80,6 @@ a {
   border-radius: 40px;
   color: #00301C;
   display: block;
-  cursor: pointer;
   font-size: 16pt;
   text-decoration: none;
   border: 0px; }
@@ -103,6 +102,11 @@ input, textarea {
 fieldset, label {
   text-align: left; }
 
+section {
+  padding-bottom: 16pt;
+  margin-bottom: 16pt;
+  border-bottom: 1px solid #CEDCD3; }
+
 .select_wrapper {
   -o-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -117,6 +121,9 @@ fieldset, label {
     top: 18px;
     cursor: pointer;
     z-index: 0; }
+
+select, .button {
+  cursor: pointer; }
 
 .button {
   background: #F8FBF8;
