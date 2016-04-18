@@ -46,7 +46,7 @@
 					</fieldset>	
 				</section>								
 				
-				<input type="submit" value="Submit a Plant" class="button">
+				<input type="submit" value="Add a Plant" class="button">
 			</form>
 		</div>
 
