@@ -1,5 +1,5 @@
 <?php
-	$title = 'Contact';
+	$title = 'Add a Plant';
 	include('assets/php/header.php');
 	include('assets/php/plant_list.php');
 ?>

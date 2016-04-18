@@ -5,7 +5,7 @@
 		<div class="main-content" id="home">
 			<h1>Contact</h1>
 
-			<form>
+			<form method="POST" action="assets/php/submit_contact.php">
 				<section>
 					<fieldset>
 						<label for='your_name'>Your Name:</label>
@@ -14,12 +14,17 @@
 
 					<fieldset>
 						<label for='your_email'>Your Email:</label>
-						<input type="email" name="your_name" placeholder="john@doe.com">
+						<input type="email" name="your_email" placeholder="john@doe.com">
+					</fieldset>	
+
+					<fieldset>
+						<label for='your_subject'>Your Subject:</label>
+						<input type="text" name="your_subject" placeholder="Hey there">
 					</fieldset>	
 					
 					<fieldset>
-						<label for='description'>Your Message:</label>
-						<textarea name="description" rows="5" placeholder="Dear Local Branch,"></textarea>
+						<label for='your_message'>Your Message:</label>
+						<textarea name="your_message" rows="5" placeholder="Dear Local Branch,"></textarea>
 					</fieldset>
 				</section>								
 				
