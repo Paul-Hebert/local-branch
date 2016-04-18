@@ -34,7 +34,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.heading, h1, h2, h3, h4, h5, h6, .name, header a {
+.heading, h1, h2, h3, h4, h5, h6, label, .name, header a {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
@@ -101,6 +101,10 @@ input, textarea {
 
 fieldset, label {
   text-align: left; }
+
+label {
+  margin-bottom: 5px;
+  display: block; }
 
 section {
   padding-bottom: 16pt;

@@ -32,6 +32,12 @@ fieldset, label{
 	text-align:left;
 }
 
+label{
+	@extend .heading;
+	margin-bottom:5px;
+	display:block;
+}
+
 section{
 	padding-bottom:$medium;
 	margin-bottom:$medium;
