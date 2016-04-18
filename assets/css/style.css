@@ -38,7 +38,7 @@ table {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
-.box-shadow, .large_input, select, .button, .plant_preview, header {
+.box-shadow, .large_input, select, input, textarea, .button, .plant_preview, header {
   box-shadow: 0px 5px 10px #00301C; }
 
 .visible-y {
@@ -71,7 +71,7 @@ a {
   color: #fff;
   text-decoration: none; }
 
-.large_input, select, .button {
+.large_input, select, input, textarea, .button {
   padding: 20px 5px;
   margin-bottom: 13pt;
   -o-border-radius: 40px;
@@ -85,7 +85,7 @@ a {
   text-decoration: none;
   border: 0px; }
 
-select {
+select, input, textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -96,6 +96,12 @@ select {
   display: block;
   width: 100%;
   padding: 15px; }
+
+input, textarea {
+  background: #F8FBF8; }
+
+fieldset, label {
+  text-align: left; }
 
 .select_wrapper {
   -o-border-radius: 40px;
@@ -201,7 +207,7 @@ select {
 #clear_favorites {
   margin-top: 16pt; }
 
-citation a {
+citation a, p a {
   text-decoration: underline; }
 
 body, body * {

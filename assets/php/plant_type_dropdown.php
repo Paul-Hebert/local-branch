@@ -1,5 +1,5 @@
 <div class="select_wrapper">
-	<select id="plant_type_dropdown">
+	<select name="plant_type">
 		<option value="">All Plants</option>
 		<?php
 			foreach ($plant_types as $plant_type) {

@@ -48,7 +48,7 @@ function initialize_location_picker(){
 function initialize_plant_type_picker(){
 	var county = $('#county').text().replace(/\ /g,'+');
 
-	$('#plant_type_dropdown').change(function(){
+	$('#plant_type_dropdown select').change(function(){
 		window.location = 'plants.php?county=' + county + '&type=' + $(this).val();		
 	});
 }
