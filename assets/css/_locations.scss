@@ -6,8 +6,11 @@
 		cursor:pointer;
 		stroke:$green;
 
+		&.selected{
+			fill:$light-color;			
+		} 
 		&:hover{
-			fill:$green;
+			fill:$green;			
 		}
 	}
 }

@@ -41,6 +41,14 @@
 			<citation>Images and information courtesy of <a href="http://www.wikipedia.com">Wikipedia</a> under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>.</citation>
 		</div>
 
-		<?php include('assets/php/scripts.php'); ?>
+		<div id="plant_map">
+			<?php include('assets/php/map.php'); ?>
+		</div>
+
+		<?php 
+			include('assets/php/scripts.php'); 
+			echo '<script type="text/javascript">initialize_plant_map(' . json_encode($plants[$id][6]) . ')</script>';
+		?>
+
 	</body>
 </html>

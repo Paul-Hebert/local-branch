@@ -25,14 +25,12 @@ $(function(){
 
 function initialize_location_picker(){
 	$('#map path, #map polyline, #map polygon').click(function(){
-		var county = $(this).attr('id').split('_');
-
-		window.location = 'plants.php?county=' + county[3] + '+County' + '&type=All';
+		window.location = 'plants.php?county=' + $(this).attr('id') + '+County' + '&type=All';
 	});
 
-	$('#map path, #map polyline, #map polygon').hover(function(){
-		var county = $(this).attr('id').split('_');
-		var county = county[3].replace(/\+/g,' ');
+	$('#location_map path, #location_map polyline, #location_map polygon').hover(function(){
+		var county = $(this).attr('id');
+		var county = county.replace(/\+/g,' ');
 
 		$('#county_dropdown').val(county + ' County');
 	});	
@@ -43,6 +41,15 @@ function initialize_location_picker(){
 
 		window.location = 'plants.php?county=' + county + '&type=All';		
 	});
+}
+
+function initialize_plant_map(counties){
+	for(i = 0; i < counties.length; i++){
+		var county = counties[i].replace(/\ /g,'+');
+		console.log(county);
+
+		document.getElementById(county).classList.add('selected');
+	}
 }
 
 function initialize_plant_type_picker(){

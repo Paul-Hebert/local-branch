@@ -10,6 +10,8 @@ Tasks
 
 * Finish adding counties to plants
 
-* Hook up Submit/Contact forms
+* Hook up Add a Plant/Contact forms
+*	- test Contact form
+*	- Secure forms
 
-* Secure forms
+* Show map of native counties on plant pages

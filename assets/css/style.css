@@ -141,6 +141,8 @@ select, .button {
     fill: #F8FBF8;
     cursor: pointer;
     stroke: #87C540; }
+    #map path.selected, #map polyline.selected, #map polygon.selected {
+      fill: #CEDCD3; }
     #map path:hover, #map polyline:hover, #map polygon:hover {
       fill: #87C540; }
 
