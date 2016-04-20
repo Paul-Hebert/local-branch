@@ -71,6 +71,9 @@ a {
   color: #fff;
   text-decoration: none; }
 
+form {
+  max-width: 600px; }
+
 .large_input, select, input, textarea, .button {
   padding: 20px 5px;
   margin-bottom: 13pt;
@@ -82,7 +85,8 @@ a {
   display: block;
   font-size: 16pt;
   text-decoration: none;
-  border: 0px; }
+  border: 0px;
+  max-width: 600px; }
 
 select, input, textarea {
   -webkit-appearance: none;
@@ -117,7 +121,8 @@ section {
   -webkit-border-radius: 40px;
   border-radius: 40px;
   background: #F8FBF8;
-  position: relative; }
+  position: relative;
+  max-width: 600px; }
   .select_wrapper span {
     color: #7DCA95;
     position: absolute;
@@ -146,10 +151,14 @@ select, .button {
     #map path:hover, #map polyline:hover, #map polygon:hover {
       fill: #87C540; }
 
+.plant {
+  max-width: 600px; }
+
 .plant_preview {
   position: relative;
   cursor: pointer;
   display: block;
+  max-width: 600px;
   text-align: left;
   padding: 13pt;
   margin-bottom: 5px;
@@ -194,8 +203,17 @@ select, .button {
   text-align: right;
   text-transform: capitalize; }
 
+#plant_map {
+  width: 24%;
+  margin-right: 3%;
+  display: inline-block; }
+  #plant_map #map {
+    width: 100%; }
+
 .description {
-  text-align: left; }
+  text-align: left;
+  display: inline-block;
+  width: 72%; }
 
 .image_wrapper {
   display: inline-block;
@@ -281,7 +299,6 @@ header {
   min-height: 100vh;
   text-align: center; }
   .main-content * {
-    max-width: 600px;
     margin-left: auto;
     margin-right: auto; }
   .main-content .logo svg {
@@ -392,6 +409,9 @@ citation {
     width: 280px; }
 
   .latin_name {
-    font-size: 10pt; } }
+    font-size: 10pt; }
+
+  #plant_map, .description {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

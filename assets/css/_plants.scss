@@ -1,7 +1,12 @@
+.plant{
+	max-width:600px;
+}
+
 .plant_preview{
 	position:relative;
 	cursor:pointer;
 	display:block;
+	max-width:600px;
 
 	text-align:left;
 	padding:$small;
@@ -49,8 +54,20 @@
 	text-transform:capitalize;
 }
 
+#plant_map {
+	width:24%;
+	margin-right:3%;
+	display:inline-block;
+
+	#map{
+		width:100%;
+	}
+}
+
 .description{
 	text-align:left;
+	display:inline-block;
+	width:72%;
 }
 
 .image_wrapper{

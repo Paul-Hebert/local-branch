@@ -1,3 +1,7 @@
+form{
+	max-width:600px;
+}
+
 .large_input{
 	padding:20px 5px;
 	margin-bottom:$small;
@@ -8,6 +12,7 @@
 	font-size:$medium;	
 	text-decoration:none;
 	border:0px;
+	max-width:600px;
 }
 
 select, input, textarea{
@@ -48,6 +53,7 @@ section{
 	@include radius(40px);	
 	background:$off-white;	
 	position:relative;
+	max-width:600px;
 
 	span{
 		color:$blue;

@@ -12,14 +12,19 @@
 	include('assets/php/header.php');
 ?>
 		<div class="main-content">
+			<div class="plant">
 			<?php 
-			echo '<div class="image_wrapper main"><img src="assets/imgs/plants/' . $plants[$id][2] .'" class="' . $plants[$id][3] . '"></div>
+				echo '<div class="image_wrapper main"><img src="assets/imgs/plants/' . $plants[$id][2] .'" class="' . $plants[$id][3] . '"></div>
 				<h1 class="name">' . $title .'</h1>';
 			 ?>
+
 			<p class="latin_name"><?php echo $latin_name; ?></p>
 
 			<p class="description"><?php echo $plants[$id][5] ?></p>
 
+			<div id="plant_map">
+				<?php include('assets/php/map.php'); ?>
+			</div>
 
 			<?php 
 				echo '
@@ -39,10 +44,7 @@
 			<br>
 
 			<citation>Images and information courtesy of <a href="http://www.wikipedia.com">Wikipedia</a> under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>.</citation>
-		</div>
-
-		<div id="plant_map">
-			<?php include('assets/php/map.php'); ?>
+			</div>
 		</div>
 
 		<?php 
