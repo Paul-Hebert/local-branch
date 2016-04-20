@@ -50,7 +50,8 @@ table {
 
 p {
   font-size: 13pt;
-  margin-bottom: 13pt; }
+  margin-bottom: 13pt;
+  max-width: 600px; }
 
 h1 {
   font-size: 34pt;
@@ -206,14 +207,16 @@ select, .button {
 #plant_map {
   width: 24%;
   margin-right: 3%;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top; }
   #plant_map #map {
     width: 100%; }
 
 .description {
   text-align: left;
   display: inline-block;
-  width: 72%; }
+  width: 72%;
+  vertical-align: top; }
 
 .image_wrapper {
   display: inline-block;
