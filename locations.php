@@ -2,7 +2,7 @@
 	$title = 'Locations';
 	include('assets/php/header.php');
 ?>
-		<div class="main-content" id="home">
+		<div class="main-content">
 			<h1>Pick Your County</h1>
 			<?php include('assets/php/county_dropdown.php'); ?>
 			<div id="location_map">

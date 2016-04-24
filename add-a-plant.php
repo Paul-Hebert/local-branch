@@ -3,7 +3,7 @@
 	include('assets/php/header.php');
 	include('assets/php/plant_list.php');
 ?>
-		<div class="main-content" id="home">
+		<div class="main-content add-a-plant" id="contact_form" method="POST" action="assets/php/submit_contact.php">
 			<h1>Submit a Plant</h1>
 
 			<form>
@@ -15,7 +15,7 @@
 
 					<fieldset>
 						<label for='your_email'>Your Email:</label>
-						<input type="email" name="your_name" placeholder="john@doe.com">
+						<input type="email" name="your_email" placeholder="john@doe.com">
 					</fieldset>	
 				</section>	
 

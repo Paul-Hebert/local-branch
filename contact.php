@@ -2,10 +2,10 @@
 	$title = 'Contact';
 	include('assets/php/header.php');
 ?>
-		<div class="main-content" id="home">
+		<div class="main-content">
 			<h1>Contact</h1>
 
-			<form method="POST" action="assets/php/submit_contact.php">
+			<form method="POST" action="assets/php/submit_contact.php" id="contact_form">
 				<section>
 					<fieldset>
 						<label for='your_name'>Your Name:</label>

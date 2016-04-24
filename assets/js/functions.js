@@ -21,6 +21,8 @@ $(function(){
 	});	
 
 	initialize_favorites_link();
+
+	initialize_contact_form();
 });
 
 function initialize_location_picker(){
@@ -150,6 +152,28 @@ function unfavorite(target){
 	});
 
 	initialize_favorites_link();
+}
+
+function initialize_contact_form(){
+	$( "#contact_form" ).on( "submit", function( event ) {
+	    event.preventDefault();
+
+	    var form_data = $('#contact_form').serialize();
+
+	    if( $(this).hasClass('add-a-plant') ){
+	    	form_data += "&add-a-plant=" + true;
+	    }
+
+	    $.ajax({
+		    type : 'POST',
+		    url : 'assets/php/submit_contact.php',
+		    data : form_data,
+		    success: function(data){
+		    	$('.main-content').html(data);
+		    }
+		});
+	});
+
 }
 
 // Borrowed animate function works on SVG hamburger icon.
