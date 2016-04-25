@@ -7,7 +7,7 @@
 						'landscape',
 						'Trees',
 						'The coast redwood can reach 115 m (377 ft) tall with a trunk diameter of 9 m (30 ft). It has a conical crown, with horizontal to slightly drooping branches. The bark can be very thick, up to 1-foot (30 cm), and quite soft and fibrous, with a bright red-brown color when freshly exposed (hence the name redwood), weathering darker. The root system is composed of shallow, wide-spreading lateral roots.',
-						['counties'] 
+						['Alameda',' Contra Costa',' Del Norte',' Humboldt',' Mendocino',' Monterey',' Marin',' Napa',' Santa Clara',' Santa Cruz',' San Diego',' San Francisco',' San Mateo',' Sonoma'] 
 					],
 					[
 						'Bishop Pine',
@@ -16,7 +16,7 @@
 						'landscape',
 						'Trees',
 						'The bishop pine, Pinus muricata, is a pine with a very restricted range: mostly in California, including several offshore Channel Islands, and a few locations in Baja California, Mexico. It is always on or near the coast.',
-						['counties'] 
+						['Alameda',' Contra Costa',' El Dorado',' Humboldt',' Los Angeles',' Mendocino',' Monterey',' Marin',' Santa Barbara',' San Bernardino',' Santa Cruz',' San Diego',' San Francisco',' San Luis Obispo',' Sonoma'] 
 					],
 					[
 						'Valley Oak',
@@ -25,7 +25,7 @@
 						'landscape',
 						'Trees',
 						'Quercus lobata, commonly called the valley oak or roble, grows into the largest of North American oaks. It is endemic to California, growing in interior valleys and foothills from Siskiyou County to San Diego County. Mature specimens may attain an age of up to 600 years. This deciduous oak requires year-round access to groundwater.Its thick, ridged bark is characteristic and resembles alligator hide. The valley oak\'s deeply lobed leaves assist in identification.',
-						['counties'] 
+						['Alameda',' Amador',' Butte',' Calaveras',' Contra Costa',' Colusa',' El Dorado',' Fresno',' Glenn',' Kings',' Kern',' Lake',' Los Angeles',' Madera',' Mendocino',' Merced',' Monterey',' Mariposa',' Marin',' Napa',' Nevada',' Orange',' Placer',' Riverside',' Sacramento',' Santa Barbara',' San Benito',' Santa Clara',' Santa Cruz',' San Diego',' San Francisco',' Shasta',' Siskiyou',' San Joaquin',' San Luis Obispo',' San Mateo',' Solano',' Sonoma',' Stanislaus',' Sutter',' Tehama',' Tulare',' Tuolumne',' Ventura',' Yolo',' Yuba'] 
 					],
 					[
 						'White Alder',
@@ -34,7 +34,7 @@
 						'landscape',
 						'Trees',
 						'Alnus rhombifolia is a medium-sized deciduous tree growing to 15–25 metres (49–82 ft) (rarely to 35 metres (115 ft)) tall, with pale gray bark, smooth on young trees, becoming scaly on old trees. The leaves are alternate, rhombic to narrow elliptic, 4–10 centimetres (1.6–3.9 in) long and 2–5 centimetres (0.79–1.97 in) cm broad, with a finely serrated margin and a rounded to acute apex; they are thinly hairy below.',
-						['counties'] 
+						['Alameda',' Alpine',' Amador',' Butte',' Calaveras',' Contra Costa',' Colusa',' Del Norte',' El Dorado',' Fresno',' Glenn',' Humboldt',' Inyo',' Kern',' Lake',' Lassen',' Los Angeles',' Madera',' Mendocino',' Merced',' Monterey',' Mariposa',' Marin',' Napa',' Nevada',' Orange',' Placer',' Plumas',' Riverside',' Sacramento',' Santa Barbara',' San Bernardino',' San Benito',' Santa Clara',' Santa Cruz',' San Diego',' San Francisco',' Shasta',' Sierra',' Siskiyou',' San Joaquin',' San Luis Obispo',' San Mateo',' Solano',' Sonoma',' Stanislaus',' Tehama',' Trinity',' Tulare',' Tuolumne',' Ventura',' Yolo',' Yuba'] 
 					],
 					[
 						'Manzanita',
@@ -43,7 +43,7 @@
 						'landscape',
 						'Shrubs',
 						'There are about 60 species of Arctostaphylos, ranging from ground-hugging arctic, coastal, and mountain species to small trees up to 6 m tall. Most are evergreen (one species deciduous), with small oval leaves 1–7 cm long, arranged spirally on the stems. The flowers are bell-shaped, white or pale pink, and borne in small clusters of 2-20 together; flowering is in the spring. The fruit are small berries, ripening in the summer or autumn. The berries of some species are edible.',
-						['counties'] 
+						['Alameda',' Contra Costa',' Inyo',' Monterey',' Santa Clara',' Santa Cruz',' San Mateo'] 
 					],
 					[
 						'Joshua Tree',
@@ -52,7 +52,7 @@
 						'portrait',
 						'Shrubs',
 						'This monocotyledonous tree is native to arid southwestern North America in the states of California, Arizona, Utah, and Nevada, where it is confined mostly to the Mojave Desert between 400 and 1,800 m (1,300 and 5,900 ft) elevation. It thrives in the open grasslands of Queen Valley and Lost Horse Valley in Joshua Tree National Park. A dense Joshua tree forest also exists in Mojave National Preserve, in the area of Cima Dome.',
-						['counties'] 
+						['Inyo',' Kern',' Los Angeles',' Mono',' Riverside',' San Bernardino'] 
 					],
 					[
 						'Barrel Cactus',
@@ -61,7 +61,7 @@
 						'landscape',
 						'Cacti',
 						'Ferocactus cylindraceus is usually cylindrical or spherical, with some older specimens forming columns 2 metres (6.6 ft) in height. It is covered in long, plentiful spines, which are straight and red when new and become curved and gray as they age. The cactus bears flowers that are maroon outside, and bright yellow inside, with red or yellow centers on the side that faces the sun. The fleshy, hollow fruits are yellow.',
-						['counties'] 
+						['Imperial',' Inyo',' Kern',' Riverside',' San Bernardino',' San Diego'] 
 					],
 					[
 						'Roseflower Stonecrop',
@@ -70,7 +70,7 @@
 						'landscape',
 						'Succulents',
 						'Sedum laxum is a species of flowering plant in the stonecrop family known by the common name roseflower stonecrop. It is native to southwestern Oregon and northwestern California, where it can be found in rocky mountainous habitat. It is a succulent plant forming basal rosettes of oval or oblong leaves up to 3 centimeters long. The inflorescence is made up of one or more erect arrays of many flowers. The flowers have reddish or yellowish petals up to 1.3 centimeters long each.',
-						['counties'] 
+						['Colusa','Del Norte','Glenn','Humboldt','Lake','Mendocino','Plumas','Shasta','Sierra','Siskiyou','Sonoma','Tehama','Trinity'] 
 					],
 					[
 						'California Poppy',
@@ -79,7 +79,7 @@
 						'landscape',
 						'Flowers',
 						'It is a perennial or annual growing to 5–60 in (13–152 cm) tall, with alternately branching glaucous blue-green foliage. The leaves are alternately divided into round, lobed segments. The flowers are solitary on long stems, silky-textured, with four petals, each petal 2 to 6 cm (0.79 to 2.36 in) long and broad; flower color ranges from yellow to orange, with flowering from February to September in the northern hemisphere (spring, summer, autumn). The petals close at night or in cold, windy weather and open again the following morning, although they may remain closed in cloudy weather. The fruit is a slender, dehiscent capsule 3 to 9 cm (1.2 to 3.5 in) long, which splits in two to release the numerous small black or dark brown seeds. It survives mild winters in its native range, dying completely in colder climates.',
-						['counties'] 
+						['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Inyo','Kings','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Merced','Mono','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'Purple Three-Awn',
@@ -88,7 +88,7 @@
 						'portrait',
 						'Grasses',
 						'Aristida purpurea is a species of grass native to North America which is known by the common name purple three-awn. This grass is fairly widespread and can be found across the western two thirds of the United States, much of southern Canada and parts of northern Mexico. It is most abundant on the plains.',
-						['counties'] 
+						['Imperial','Inyo','Los Angeles','Mono','Orange','Riverside','Santa Barbara','San Bernardino','San Diego','San Mateo','Tehama'] 
 					],
 					[
 						'Blue Grama',
@@ -97,7 +97,7 @@
 						'landscape',
 						'Grasses',
 						'Blue grama grows on a wide array of topographic positions, and in a range of well-drained soil types, from fine to coarse textured. The Bouteloua gracilis plant height at maturity ranges from 15–30 cm (6–12 in). The roots generally extend 30–46 cm (12–18 in) from the edge of the plant, and 0.9–1.8 m (3–6 ft) deep. Maximum rooting depth is around 2 m (7 ft). Blue grama is green to greyish in appearance.',
-						['counties'] 
+						['Kern','Napa','Placer','Riverside','Santa Barbara','San Bernardino'] 
 					],
 					[
 						'Sealettuce',
@@ -106,7 +106,7 @@
 						'portrait',
 						'Succulents',
 						'Dudleya caespitosa is a succulent plant known by several common names, including Sealettuce, Sand lettuce, and Coast dudleya. It is endemic to California, where it grows along the coastline in the southern half of the state.',
-						['counties'] 
+						['Los Angeles','Mendocino','Monterey','Marin','Napa','Orange','Santa Barbara','Santa Clara','Santa Cruz','San Diego','San Francisco','San Luis Obispo','San Mateo','Solano','Sonoma','Ventura'] 
 					],
 					[
 						'Ithuriel\'s Spear',
@@ -115,7 +115,7 @@
 						'portrait',
 						'Flowers',
 						'Triteleia is a genus of monocotyledon flowering plants also known as triplet lilies. Species are native to western North America, from British Columbia south to California, with one species in northwestern Mexico. However they are most common in California. They are perennial plants growing from a fibrous corm, roughly spherical in shape. They get their name from the fact that all parts of their flowers come in threes.',
-						['counties'] 
+						['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Kern','Lake','Los Angeles','Madera','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Nevada','Placer','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Francisco','Shasta','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Yolo','Yuba'] 
 					],
 					[
 						'Goldenstar',
@@ -124,7 +124,7 @@
 						'landscape',
 						'Flowers',
 						'The Bloomeria crocea corm has a fibrous exterior and usually produces only one leaf. Plants produce six-petaled golden flowers that are clustered in a loose umbel. When the three-lobed stigma is fertilized, Bloomeria produces capsules that contain small black seeds. The seeds then require three to four years to become a mature plant.',
-						['counties'] 
+						['Fresno','Kings','Kern','Los Angeles','Merced','Monterey','Orange','Riverside','Santa Barbara','San Bernardino','San Benito','Santa Clara','San Diego','Siskiyou','San Luis Obispo','Stanislaus','Tulare','Ventura'] 
 					],
 					[
 						'Common Madia',
@@ -133,7 +133,7 @@
 						'landscape',
 						'Flowers',
 						'Madia elegans is covered with short, stiff hairs. Glands are borne on stalks, especially near the flowers. The showy flower varies in appearance across subspecies and even within subspecies. Typically, it is a bright yellow daisy-like bloom with numerous thin ray flowers and several central disk flowers. It may be solid lemon yellow or have a center of a different color, from white to maroon. Several strongly scented, uncrowded, flower heads grow at the end of a slender green stem. The ray flowers curl up during the daytime, opening in the late afternoon and staying open all night until mid-morning. It flowers from April through early November. Its fruits are achenes which were historically used as food by Native Americans, including the Pomo and Miwok, who baked them or ground them into flour. The foliage exudes a fragrant oil, hence the common name of tarweed.',
-						['counties'] 
+						['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Inyo','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Merced','Mono','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'Miner\'s Lettuce',
@@ -142,7 +142,7 @@
 						'landscape',
 						'Grasses',
 						'Claytonia perfoliata (Indian lettuce, spring beauty, winter purslane, or miner\'s lettuce ; syn. Montia perfoliata) is a fleshy annual plant native to the western mountain and coastal regions of North America from southernmost Alaska and central British Columbia south to Central America, but most common in California in the Sacramento and northern San Joaquin valleys.',
-						['counties'] 
+						['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Humboldt','Imperial','Inyo','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Merced','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'Blue Dicks',
@@ -151,7 +151,7 @@
 						'landscape',
 						'Flowers',
 						'Dichelostemma capitatum is an herbaceous perennial growing from an underground corm to a height of as much as 60 cm. It has 2–3 leaves which are 10–40 cm long. The inflorescence is head- or umbel-like, and dense. It usually contains 2 to 15 flowers, which have a blue, blue-purple, pink-purple, or white perianth. The flower tube is 3–12 mm and is narrowly cylindrical to campanulate. Flowers have six fertile stamens, deeply notched, lanceolate, white, angled inward, slightly reflexed at tip, with outer filaments wider at the base. It has a twisted and fleshy peduncle, a set of membranous, petal-like stamen appendages around the anthers, and angular black seeds. It reproduces from seed and vegetative means in the form of cormlets. The cormlets are attached to the parent corm by stolons and are sessile, produced in the axils of the old leaf bases on the mature corm. Plants thrive in open disturbed environments, and are a common post-fire succession species in chaparral.',
-						['counties'] 
+						['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Imperial','Inyo','Kings','Kern','Lake','Los Angeles','Madera','Mendocino','Merced','Mono','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Orange','Placer','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'Madrone',
@@ -160,7 +160,7 @@
 						'portrait',
 						'Trees',
 						'Arbutus menziesii is an evergreen tree with rich orange-red bark that when mature naturally peels away in thin sheets, leaving a greenish, silvery appearance that has a satin sheen and smoothness. The exposed wood sometimes feels cool to the touch. In spring, it bears sprays of small bell-like flowers, and in autumn, red berries. The berries dry up and have hooked barbs that latch onto larger animals for migration.',
-						['counties'] 
+						['Alameda','Amador','Butte','Calaveras','Contra Costa','Del Norte','El Dorado','Humboldt','Lake','Los Angeles','Mendocino','Monterey','Marin','Napa','Nevada','Orange','Placer','Riverside','Santa Barbara','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Luis Obispo','San Mateo','Solano','Sonoma','Trinity','Tuolumne','Ventura','Yuba'] 
 					],
 					[
 						'California Juniper',
@@ -169,7 +169,7 @@
 						'portrait',
 						'Shrubs',
 						'Juniperus californica is a shrub or small tree reaching 3–8 metres (9.8–26.2 ft), but rarely up to 10 metres (33 ft) tall. The bark is ashy gray, typically thin, and appears to be "shredded". The shoots are fairly thick compared to most junipers, between 1.5 and 2 millimeters (0.059 - 0.079 in.) in diameter.',
-						['counties'] 
+						['Alameda','Amador','Butte','Contra Costa','Colusa','Fresno','Glenn','Imperial','Inyo','Kings','Kern','Lake','Lassen','Los Angeles','Madera','Merced','Monterey','Mariposa','Napa','Orange','Placer','Plumas','Riverside','Santa Barbara','San Bernardino','San Benito','Santa Clara','San Diego','Shasta','San Joaquin','San Luis Obispo','Stanislaus','Sutter','Tehama','Tulare','Tuolumne','Ventura','Yolo'] 
 					],
 					[
 						'Mescal',
@@ -178,7 +178,7 @@
 						'landscape',
 						'Succulents',
 						'Agave deserti (Desert Agave, Mescal, Century Plant or Maguey) is an agave native to desert regions in southern California, Arizona, and Baja California. Its tall yellow flower stalks dot dry rocky slopes and washes throughout the spring.',
-						['counties'] 
+						['Imperial','Riverside','San Bernardino','San Diego'] 
 					],
 					[
 						'Giant Sequoia',
@@ -187,7 +187,7 @@
 						'landscape',
 						'Trees',
 						'Giant sequoias are the world\'s largest single trees and largest living thing by volume. Giant sequoias grow to an average height of 50–85 m (164–279 ft) and 6–8 m (20–26 ft) in diameter. Record trees have been measured to be 94.8 m (311 ft) in height and over 17 m (56 ft) in diameter. The oldest known giant sequoia based on ring count is 3,500 years old. Giant Sequoias are among the oldest living things on Earth. Sequoia bark is fibrous, furrowed, and may be 90 cm (3.0 ft) thick at the base of the columnar trunk. It provides significant fire protection for the trees. The leaves are evergreen, awl-shaped, 3–6 millimetres (0.12–0.24 in) long, and arranged spirally on the shoots. The seed cones are 4–7 centimetres (1.6–2.8 in) long and mature in 18–20 months, though they typically remain green and closed for up to 20 years; each cone has 30–50 spirally arranged scales, with several seeds on each scale, giving an average of 230 seeds per cone. The seed is dark brown, 4–5 millimetres (0.16–0.20 in) long and 1 millimetre (0.039 in) broad, with a 1-millimetre (0.039 in) wide, yellow-brown wing along each side. Some seeds are shed when the cone scales shrink during hot weather in late summer, but most are liberated when the cone dries from fire heat or is damaged by insects.',
-						['counties'] 
+						['Amador','Butte','Calaveras','Fresno','Kern','Los Angeles','Madera','Mariposa','Marin','Nevada','Placer','Riverside','San Bernardino','Tulare','Tuolumne'] 
 					],
 					[
 						'Sacred Datura',
@@ -196,7 +196,7 @@
 						'portrait',
 						'Flowers',
 						'Datura wrightii or sacred datura is the name of a poisonous perennial plant and ornamental flower of southwestern North America. It is sometimes used as a hallucinogen. D. wrightii is classified as a deliriant and an anticholinergic. It is a vigorous herbaceous perennial that grows 30 cm to 1.5 m tall and wide. The leaves are broad and rounded at the base, tapering to a point, often with wavy margins. The flowers are the most striking feature, being sweetly fragrant white trumpets up to 20 cm (7.9 in) long, often tinted purple, especially at the margin. Five narrow points are spaced symmetrically around the rim. It can bloom from April to October. In clear weather, flowers open at nearly full dark and wither a few hours after sunrise the following morning; in cloudy weather, they may open earlier and last longer.',
-						['counties'] 
+						['Alameda','Butte','Calaveras','Contra Costa','Colusa','Fresno','Glenn','Imperial','Inyo','Kings','Kern','Los Angeles','Madera','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Orange','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','San Diego','San Francisco','Shasta','San Joaquin','San Luis Obispo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Tulare','Tuolumne','Ventura','Yolo'] 
 					],
 					[
 						'Coyote Mint',
@@ -205,7 +205,7 @@
 						'portrait',
 						'Herbs',
 						'Monardella is a genus of approximately 40 species of annual and perennial plants native to western North America from British Columbia to northwestern Mexico. They are grown for their highly aromatic foliage, which in some species is used for herbal teas. The 2-lipped, tubular flowers are formed in terminal clusters and are most usually red, pink, or purple.',
-						['counties'] 
+						['Los Angeles','Orange','Riverside','Santa Barbara','San Bernardino','San Diego','Ventura'] 
 					],
 					[
 						'Giant Chain Fern',
@@ -214,7 +214,7 @@
 						'landscape',
 						'Ferns',
 						'Woodwardia fimbriata, known by the common name giant chain fern, is a fern species in the family Blechnaceae, in the eupolypods II clade of the order Polypodiales, in the class Polypodiopsida. It is native to western North America from British Columbia through California, including the Sierra Nevada, into Baja California. It grows in coniferous forests and other moist wooded habitat.',
-						['counties'] 
+						['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Humboldt','Kern','Lake','Los Angeles','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura'] 
 					],
 					[
 						'Morning Glory',
@@ -223,7 +223,7 @@
 						'landscape',
 						'Flowers',
 						'Calystegia (bindweed, false bindweed, or morning glory) is a genus of about 25 species of flowering plants in the bindweed family Convolvulaceae. The genus has a cosmopolitan distribution in temperate and subtropical regions, but with half of the species endemic to California. They are annual or herbaceous perennial twining vines growing to 1-5 m tall, with spirally arranged leaves. The flowers are trumpet-shaped, 3-10 cm diameter, white or pink, with a sometimes inflated basal calyx.',
-						['counties'] 
+						['Colusa','Contra Costa','Del Norte','Fresno','Glenn','Lake','Marin','Mendocino','Monterey','Napa','Placer','San Benito','San Luis Obispo','Santa Barbara','Santa Clara','Shasta','Solano','Sonoma','Tehama','Ventura','Butte','Colusa'] 
 					],
 					[
 						'Creosote Bush',
@@ -231,8 +231,8 @@
 						'500px-Larrea_tridentata_3.jpg',
 						'landscape',
 						'Shrubs',
-						'Larrea tridentata is known as creosote bush and greasewood as a plant, chaparral as a medicinal herb, and as "gobernadora" in Mexico, Spanish for "governess," due to its ability to secure more water by inhibiting the growth of nearby plants. In Sonora, it is more commonly called "hediondilla." It is a flowering plant in the family Zygophyllaceae. The name \'tridentata\' refers to its three-toothed leaves.',
-						['counties'] 
+						'Larrea tridentata is known as creosote bush and greasewood as a plant, chaparral as a medicinal herb, and as "gobernadora" in Mexico, Spanish for "governess," due to its ability to secure more water by inhibiting the growth of nearby plants. In Sonora, it is more commonly called "hediondilla." It is a flowering plant in the family Zygophyllaceae. The name \'tridentata\'refers to its three-toothed leaves.',
+						['Imperial','Inyo','Kern ','Los Angeles ','Monterey','Placer','Riverside','San Bernardino','San Diego','Ventura'] 
 					],
 					[
 						'California Fan Palm',
@@ -241,7 +241,7 @@
 						'portrait',
 						'Trees',
 						'Washingtonia filifera, also known as desert fan palm or California fan palm or California palm, is a flowering plant in the palm family (Arecaceae), and native to the southwestern U.S. and Baja California. Growing to 15–20 m (49–66 ft) tall by 3–6 m (10–20 ft) broad, it is an evergreen monocot with a tree-like growth habit. It has a sturdy columnar trunk and waxy fan-shaped (palmate) leaves.',
-						['counties'] 
+						['Butte','Contra Costa','Imperial','Inyo','Kern','Los Angeles','Marin','Orange','Riverside','Sacramento','Santa Barbara','San Bernardino','San Diego','Solano','Tehama','Ventura'] 
 					],
 					[
 						'Desert Sand-Verbana',
@@ -259,7 +259,7 @@
 						'portrait',
 						'Cacti',
 						'Fouquieria splendens (commonly known as ocotillo, but also referred to as coachwhip, candlewood, slimwood, desert coral, Jacob\'s staff, Jacob cactus, and vine cactus) is a plant indigenous to the Sonoran Desert and Chihuahuan Desert in the Southwestern United States (southern California, southern Nevada, Arizona, New Mexico, western Texas), and northern Mexico (as far south as Hidalgo and Guerrero).',
-						['Imperial','Riverside','San Bernardino','San Diego' ] 
+						['Imperial','Riverside','San Bernardino','San Diego'] 
 					],
 					[
 						'Alamo Cottonwood',

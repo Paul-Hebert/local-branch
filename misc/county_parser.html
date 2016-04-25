@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<body>
+		<input type="text">
+		<div class="results"></div>
+
+  		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			  $('input').keyup(function(){
+			    console.log('bbb');
+			    var results = $(this).val();
+			    
+			    results = results.replace(new RegExp(':', "gi"), "','");
+			    
+			    results = results.replace(new RegExp('CCH', "gi"), '');  
+			    
+			    results = results.replace(new RegExp('/', "gi"), '');     
+			    
+			    results = results.replace(/\d+/g, '');  
+			    
+			    results = "'" + results;
+			    
+			    results = results.trim();
+			    results = results.substring(0,results.length - 2);
+
+			    results = results.replace(new RegExp("' ", "gi"), "'");  			    
+			    
+			    $('.results').text(results);
+			  });  
+			});
+		</script>
+	</body>
+</html>
