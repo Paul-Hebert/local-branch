@@ -27,13 +27,25 @@
 	$mail->isHTML(true);
 
 	if ( !isset($_POST['add-a-plant']) ){
-		$mail->Subject = $_POST['your_subject'];
-		$message = $_POST['your_message'];
+		$mail->Subject 	= 	$_POST['your_subject'];
+
+		$message 		= 	$_POST['your_message'];
+
+		$success 		= 	'Thanks for reaching out. We\'ll get back to you quickly.';
 	} else{
 		$mail->Subject = 'Plant Submission: ' . $_POST['plant_name'];
-		$message =  'Plant Name: ' . $_POST['plant_name'] . '\r\n' .
-					'Latin Name: ' . $_POST['latin_name'] . '\r\n' .
-					'Description: ' . $_POST['description'];	
+
+		$message =  
+			'Plant Name: ' . $_POST['plant_name'] . '<br>' .
+			'Latin Name: ' . $_POST['latin_name'] . '<br>' .
+			'Plant Type: ' . $_POST['plant_type'] . '<br>' .
+			'Description: ' . $_POST['description']
+		;	
+
+		$success = '
+			<h1>Thanks!</h1> 
+			<p>After a moderator has reviewed your submission we\'ll add it to the site and send you an email notification.
+		';		
 	}
 
 	$mail->Body = $message;	// HTML
@@ -45,6 +57,6 @@
 	} 
 	else 
 	{
-		echo 'Thanks for reaching out. We\'ll get back to you quickly.';
+		echo $success;
 	}
 ?>
