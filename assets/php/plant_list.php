@@ -59,7 +59,7 @@
 						'Ferocactus cylindraceus',
 						'Joshua_Tree_NP_-_Barrel_Cactus_-2.jpg',
 						'landscape',
-						'Cacti',
+						'Cacti and Succulents',
 						'Ferocactus cylindraceus is usually cylindrical or spherical, with some older specimens forming columns 2 metres (6.6 ft) in height. It is covered in long, plentiful spines, which are straight and red when new and become curved and gray as they age. The cactus bears flowers that are maroon outside, and bright yellow inside, with red or yellow centers on the side that faces the sun. The fleshy, hollow fruits are yellow.',
 						['Imperial',' Inyo',' Kern',' Riverside',' San Bernardino',' San Diego'] 
 					],
@@ -68,7 +68,7 @@
 						'Sedum laxum',
 						'440px-Sedum_laxum_ssp_eastwoodiae.jpeg',
 						'landscape',
-						'Succulents',
+						'Cacti and Succulents',
 						'Sedum laxum is a species of flowering plant in the stonecrop family known by the common name roseflower stonecrop. It is native to southwestern Oregon and northwestern California, where it can be found in rocky mountainous habitat. It is a succulent plant forming basal rosettes of oval or oblong leaves up to 3 centimeters long. The inflorescence is made up of one or more erect arrays of many flowers. The flowers have reddish or yellowish petals up to 1.3 centimeters long each.',
 						['Colusa','Del Norte','Glenn','Humboldt','Lake','Mendocino','Plumas','Shasta','Sierra','Siskiyou','Sonoma','Tehama','Trinity'] 
 					],
@@ -104,7 +104,7 @@
 						'Dudleya caespitosa',
 						'Dudleya_caespitosa_7.jpg',
 						'portrait',
-						'Succulents',
+						'Cacti and Succulents',
 						'Dudleya caespitosa is a succulent plant known by several common names, including Sealettuce, Sand lettuce, and Coast dudleya. It is endemic to California, where it grows along the coastline in the southern half of the state.',
 						['Los Angeles','Mendocino','Monterey','Marin','Napa','Orange','Santa Barbara','Santa Clara','Santa Cruz','San Diego','San Francisco','San Luis Obispo','San Mateo','Solano','Sonoma','Ventura'] 
 					],
@@ -176,7 +176,7 @@
 						'Agave deserti',
 						'300px-Agave_desertii_1.jpg',
 						'landscape',
-						'Succulents',
+						'Cacti and Succulents',
 						'Agave deserti (Desert Agave, Mescal, Century Plant or Maguey) is an agave native to desert regions in southern California, Arizona, and Baja California. Its tall yellow flower stalks dot dry rocky slopes and washes throughout the spring.',
 						['Imperial','Riverside','San Bernardino','San Diego'] 
 					],
@@ -257,7 +257,7 @@
 						'Fouquieria splendens',
 						'Ocotillo_GB.jpg',
 						'portrait',
-						'Cacti',
+						'Cacti and Succulents',
 						'Fouquieria splendens (commonly known as ocotillo, but also referred to as coachwhip, candlewood, slimwood, desert coral, Jacob\'s staff, Jacob cactus, and vine cactus) is a plant indigenous to the Sonoran Desert and Chihuahuan Desert in the Southwestern United States (southern California, southern Nevada, Arizona, New Mexico, western Texas), and northern Mexico (as far south as Hidalgo and Guerrero).',
 						['Imperial','Riverside','San Bernardino','San Diego'] 
 					],
@@ -330,8 +330,7 @@
 						'Trees',
 						'Shrubs',
 						'Flowers',
-						'Cacti',
-						'Succulents',
+						'Cacti and Succulents',
 						'Grasses',
 						'Ferns',
 						'Herbs'

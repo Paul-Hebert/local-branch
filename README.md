@@ -8,3 +8,7 @@ Tasks
 * Validate Forms
 
 * Add a share button
+
+* Add Favicon/app icon
+
+* New splash page
