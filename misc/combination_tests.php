@@ -2,9 +2,15 @@
 <html>
 	<head>
 		<style>
+			thead, tfoot{
+				background:#222;
+				color:#eee;
+			}
+
 			th, td{
 				border:1px solid #ccc;
-			}
+				padding:3px 10px;
+			}		
 		</style>
 	</head>
 	<body>
@@ -73,7 +79,7 @@
 			include('../assets/php/plant_list.php');
 
 			echo '
-				<table>
+				<table cellspacing="0">
 					<thead>
 						<tr>
 							<th>County</th>';

@@ -14,3 +14,5 @@ Tasks
 * New splash page
 
 * Find better position for maps on plant pages
+
+* Investigate cookie length
