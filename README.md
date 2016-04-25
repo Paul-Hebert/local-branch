@@ -9,6 +9,8 @@ Tasks
 
 * Add a share button
 
-* Add Favicon/app icon
+* Test app icon
 
 * New splash page
+
+* Find better position for maps on plant pages

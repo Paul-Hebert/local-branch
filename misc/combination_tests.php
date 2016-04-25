@@ -121,6 +121,25 @@
 					</tr>
 				';
 			}
+
+			echo '
+				<tfoot>
+					<tr>
+						<td>Total Counts</td>';
+							foreach($plant_types as $plant_type){
+								$count = 0;
+								foreach($plants as $plant){
+									if ( $plant[4] === $plant_type ){
+										$count++;
+									}
+								}
+								echo '<td>' . $count . '</td>';
+							}						
+
+						echo '<td>' . count($plants) . '</td>
+					</tr>
+				</tfoot>
+			';
 			echo '</table>';
 		?>
 	</body>

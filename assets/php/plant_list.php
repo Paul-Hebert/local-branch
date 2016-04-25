@@ -7,7 +7,7 @@
 						'landscape',
 						'Trees',
 						'The coast redwood can reach 115 m (377 ft) tall with a trunk diameter of 9 m (30 ft). It has a conical crown, with horizontal to slightly drooping branches. The bark can be very thick, up to 1-foot (30 cm), and quite soft and fibrous, with a bright red-brown color when freshly exposed (hence the name redwood), weathering darker. The root system is composed of shallow, wide-spreading lateral roots.',
-						['Alameda',' Contra Costa',' Del Norte',' Humboldt',' Mendocino',' Monterey',' Marin',' Napa',' Santa Clara',' Santa Cruz',' San Diego',' San Francisco',' San Mateo',' Sonoma'] 
+						['Alameda','Contra Costa','Del Norte','Humboldt','Mendocino','Monterey','Marin','Napa','Santa Clara','Santa Cruz','San Diego','San Francisco','San Mateo','Sonoma'] 
 					],
 					[
 						'Bishop Pine',
@@ -16,7 +16,7 @@
 						'landscape',
 						'Trees',
 						'The bishop pine, Pinus muricata, is a pine with a very restricted range: mostly in California, including several offshore Channel Islands, and a few locations in Baja California, Mexico. It is always on or near the coast.',
-						['Alameda',' Contra Costa',' El Dorado',' Humboldt',' Los Angeles',' Mendocino',' Monterey',' Marin',' Santa Barbara',' San Bernardino',' Santa Cruz',' San Diego',' San Francisco',' San Luis Obispo',' Sonoma'] 
+						['Alameda','Contra Costa','El Dorado','Humboldt','Los Angeles','Mendocino','Monterey','Marin','Santa Barbara','San Bernardino','Santa Cruz','San Diego','San Francisco','San Luis Obispo','Sonoma'] 
 					],
 					[
 						'Valley Oak',
@@ -25,7 +25,7 @@
 						'landscape',
 						'Trees',
 						'Quercus lobata, commonly called the valley oak or roble, grows into the largest of North American oaks. It is endemic to California, growing in interior valleys and foothills from Siskiyou County to San Diego County. Mature specimens may attain an age of up to 600 years. This deciduous oak requires year-round access to groundwater.Its thick, ridged bark is characteristic and resembles alligator hide. The valley oak\'s deeply lobed leaves assist in identification.',
-						['Alameda',' Amador',' Butte',' Calaveras',' Contra Costa',' Colusa',' El Dorado',' Fresno',' Glenn',' Kings',' Kern',' Lake',' Los Angeles',' Madera',' Mendocino',' Merced',' Monterey',' Mariposa',' Marin',' Napa',' Nevada',' Orange',' Placer',' Riverside',' Sacramento',' Santa Barbara',' San Benito',' Santa Clara',' Santa Cruz',' San Diego',' San Francisco',' Shasta',' Siskiyou',' San Joaquin',' San Luis Obispo',' San Mateo',' Solano',' Sonoma',' Stanislaus',' Sutter',' Tehama',' Tulare',' Tuolumne',' Ventura',' Yolo',' Yuba'] 
+						['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','El Dorado','Fresno','Glenn','Kings','Kern','Lake','Los Angeles','Madera','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Nevada','Orange','Placer','Riverside','Sacramento','Santa Barbara','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'White Alder',
@@ -34,7 +34,7 @@
 						'landscape',
 						'Trees',
 						'Alnus rhombifolia is a medium-sized deciduous tree growing to 15–25 metres (49–82 ft) (rarely to 35 metres (115 ft)) tall, with pale gray bark, smooth on young trees, becoming scaly on old trees. The leaves are alternate, rhombic to narrow elliptic, 4–10 centimetres (1.6–3.9 in) long and 2–5 centimetres (0.79–1.97 in) cm broad, with a finely serrated margin and a rounded to acute apex; they are thinly hairy below.',
-						['Alameda',' Alpine',' Amador',' Butte',' Calaveras',' Contra Costa',' Colusa',' Del Norte',' El Dorado',' Fresno',' Glenn',' Humboldt',' Inyo',' Kern',' Lake',' Lassen',' Los Angeles',' Madera',' Mendocino',' Merced',' Monterey',' Mariposa',' Marin',' Napa',' Nevada',' Orange',' Placer',' Plumas',' Riverside',' Sacramento',' Santa Barbara',' San Bernardino',' San Benito',' Santa Clara',' Santa Cruz',' San Diego',' San Francisco',' Shasta',' Sierra',' Siskiyou',' San Joaquin',' San Luis Obispo',' San Mateo',' Solano',' Sonoma',' Stanislaus',' Tehama',' Trinity',' Tulare',' Tuolumne',' Ventura',' Yolo',' Yuba'] 
+						['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Inyo','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					],
 					[
 						'Manzanita',
@@ -43,7 +43,7 @@
 						'landscape',
 						'Shrubs',
 						'There are about 60 species of Arctostaphylos, ranging from ground-hugging arctic, coastal, and mountain species to small trees up to 6 m tall. Most are evergreen (one species deciduous), with small oval leaves 1–7 cm long, arranged spirally on the stems. The flowers are bell-shaped, white or pale pink, and borne in small clusters of 2-20 together; flowering is in the spring. The fruit are small berries, ripening in the summer or autumn. The berries of some species are edible.',
-						['Alameda',' Contra Costa',' Inyo',' Monterey',' Santa Clara',' Santa Cruz',' San Mateo'] 
+						['Alameda','Contra Costa','Inyo','Monterey','Santa Clara','Santa Cruz','San Mateo'] 
 					],
 					[
 						'Joshua Tree',
@@ -52,7 +52,7 @@
 						'portrait',
 						'Shrubs',
 						'This monocotyledonous tree is native to arid southwestern North America in the states of California, Arizona, Utah, and Nevada, where it is confined mostly to the Mojave Desert between 400 and 1,800 m (1,300 and 5,900 ft) elevation. It thrives in the open grasslands of Queen Valley and Lost Horse Valley in Joshua Tree National Park. A dense Joshua tree forest also exists in Mojave National Preserve, in the area of Cima Dome.',
-						['Inyo',' Kern',' Los Angeles',' Mono',' Riverside',' San Bernardino'] 
+						['Inyo','Kern','Los Angeles','Mono','Riverside','San Bernardino'] 
 					],
 					[
 						'Barrel Cactus',
@@ -61,7 +61,7 @@
 						'landscape',
 						'Cacti and Succulents',
 						'Ferocactus cylindraceus is usually cylindrical or spherical, with some older specimens forming columns 2 metres (6.6 ft) in height. It is covered in long, plentiful spines, which are straight and red when new and become curved and gray as they age. The cactus bears flowers that are maroon outside, and bright yellow inside, with red or yellow centers on the side that faces the sun. The fleshy, hollow fruits are yellow.',
-						['Imperial',' Inyo',' Kern',' Riverside',' San Bernardino',' San Diego'] 
+						['Imperial','Inyo','Kern','Riverside','San Bernardino','San Diego'] 
 					],
 					[
 						'Roseflower Stonecrop',
@@ -323,6 +323,51 @@
 						'Herbs',
 						'Nemophila menziesii, known commonly as baby blue eyes or baby\'s-blue-eyes, is an annual herb, native to western North America. It grows virtually throughout California at elevations from sea level up to almost 6,500 feet (2,000 m). It grows in many types of habitats, including chaparral, valley grasslands, and montane locales.',
 						['Alameda','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Imperial','Inyo','Kern','Lake','Los Angeles','Madera','Mendocino','Merced','Monterey','Mariposa','Marin','Napa','Nevada','Orange','Placer','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
+					],
+					[
+						'White Fir',
+						'Abies concolor',
+						'440px-Abies_concolor_cones.jpg',
+						'portrait',
+						'Trees',
+						'Abies concolor, commonly known as the white fir or Colorado white-fir, is a fir native to the mountains of western North America, occurring at elevations of 900–3,400 m (3,000–11,200 ft). It is a medium to large evergreen coniferous tree growing to 25–60 m (82–197 ft) tall and with a trunk diameter of up to 2 m (6.6 ft). It is popular as an ornamental landscaping tree and as a Christmas tree. It is sometimes known as concolor fir.',
+						['Alameda','Alpine','Amador','Butte','Calaveras','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Inyo','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Mono','Modoc','Mariposa','Nevada','Placer','Plumas','Riverside','Santa Barbara','San Bernardino','San Diego','Shasta','Sierra','Siskiyou','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yuba'] 
+					],
+					[
+						'Common Yarrow',
+						'Achillea millefolium',
+						'Yarrow_(Achillea_millefolium).jpg',
+						'portrait',
+						'Herbs',
+						'Achillea millefolium, commonly known as yarrow or common yarrow, is a flowering plant in the family Asteraceae. It is native to temperate regions of the Northern Hemisphere in Asia, Europe, and North America. It has been introduced as a feed for live stock in places like New Zealand and Australia. However, it is a weed in those places and sometimes also in its native regions. In New Mexico and southern Colorado, it is called plumajillo (Spanish for \'little feather\') from its leaf shape and texture. In antiquity, yarrow was known as herbal militaris, for its use in stanching the flow of blood from wounds. Other common names for this species include gordaldo, nosebleed plant, old man\'s pepper, devil\'s nettle, sanguinary, milfoil, soldier\'s woundwort, thousand-leaf, and thousand-seal.',
+						['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Inyo','Kings','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Merced','Mono','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Stanislaus','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
+					],
+					[
+						'Five Fingered Fern',
+						'Adiantum pedatum',
+						'480px-Adiantum_pedatum_(homeredwardprice)_001.jpg',
+						'landscape',
+						'Ferns',
+						'Adiantum pedatum (northern maidenhair fern, five-fingered fern) is a species of fern in the family Pteridaceae, native to moist forests in eastern North America. Like other ferns in the genus, the name maidenhair refers to the slender, shining black stipes.',
+						['Alameda','Butte','Contra Costa','Del Norte','El Dorado','Fresno','Humboldt','Inyo','Los Angeles','Madera','Mendocino','Mono','Monterey','Mariposa','Marin','Napa','Nevada','Plumas','Riverside','Santa Barbara','San Bernardino','Santa Clara','Santa Cruz','Shasta','Sierra','Siskiyou','San Luis Obispo','San Mateo','Solano','Sonoma','Tehama','Trinity','Tulare','Yuba'] 
+					],
+					[
+						'Common Maidenhair Fern',
+						'Adiantum capillus-veneris',
+						'400px-Adiantum01_ST_06.JPG',
+						'portrait',
+						'Ferns',
+						'Adiantum capillus-veneris is native to the southern half of the United States from California to the Atlantic coast, through Mexico and Central America, to South America. It is also native to Eurasia, the Levant in Western Asia, and Australasia. There are two disjunct occurrences in the northern part of North America: at Cascade Springs in the Black Hills of South Dakota and Fairmont Hot Springs, British Columbia. In both instances, the warm microclimate created by hot mineral springs permits the growth of the plant far north of its normal range.',
+						['Butte','Fresno','Glenn','Humboldt','Inyo','Los Angeles','Mendocino','Merced','Monterey','Mariposa','Marin','Orange','Riverside','Santa Barbara','San Bernardino','Santa Clara','San Diego','Shasta','Siskiyou','San Luis Obispo','Sonoma','Stanislaus','Ventura'] 
+					],
+					[
+						'Spike Bentgrass',
+						'Agrostis exarata',
+						'440px-Agrostis_exarata.jpg',
+						'portrait',
+						'Grasses',
+						'This is a common perennial grass reaching one to three feet in height with long, thin, flat leaves each with a ligule of 2–4 millimetres (0.079–0.157 in). The tuft inflorescence may be up to 30 centimetres (12 in) long and is usually dense with tiny spikelets. It reproduces mainly by seed, but it can also spread via rhizome. This bunchgrass occurs in many plant communities in varied climates. It is considered good forage for livestock.',
+						['Alameda','Alpine','Amador','Butte','Calaveras','Contra Costa','Colusa','Del Norte','El Dorado','Fresno','Glenn','Humboldt','Inyo','Kings','Kern','Lake','Lassen','Los Angeles','Madera','Mendocino','Mono','Monterey','Modoc','Mariposa','Marin','Napa','Nevada','Orange','Placer','Plumas','Riverside','Sacramento','Santa Barbara','San Bernardino','San Benito','Santa Clara','Santa Cruz','San Diego','San Francisco','Shasta','Sierra','Siskiyou','San Joaquin','San Luis Obispo','San Mateo','Solano','Sonoma','Sutter','Tehama','Trinity','Tulare','Tuolumne','Ventura','Yolo','Yuba'] 
 					]
 				];			
 
