@@ -3,8 +3,6 @@ Local Branch
 
 Necessary Tasks
 ---------------
-* Validate Forms
-
 * Test app icon
 
 * New splash page
@@ -21,5 +19,3 @@ Additional Tasks
 * Add a share button
 
 * Add more plants
-
-* Different button color
