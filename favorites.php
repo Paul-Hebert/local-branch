@@ -9,7 +9,7 @@
 
 			<div id="favorites">
 				<?php 
-					if ($_GET['ids'] === undefined || $_GET['ids'] === ''){
+					if ($_GET['ids'] === 'undefined' || $_GET['ids'] === ''){
 						include('assets/php/empty.php');
 					} else{
 						$plant_ids = array_unique( explode(',', $_GET['ids']) );
