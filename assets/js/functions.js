@@ -64,8 +64,6 @@ function initialize_plant_type_picker(){
 
 function initialize_mobile_menu(){
 	$('#menu-toggle').click(function(){
-		$('header nav a').addClass('box-shadow');
-
 		if ( $('#menu-toggle svg').attr('class') === 'open' ){
 			$('#menu-toggle svg').attr('class','');
 			$('#mobile_modal').fadeOut();
