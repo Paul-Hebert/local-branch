@@ -8,23 +8,23 @@
 			<form method="POST" action="assets/php/submit_contact.php" id="contact_form">
 				<section>
 					<fieldset>
-						<label for='your_name'>Your Name:</label>
-						<input type="text" name="your_name" placeholder="John Doe">
+						<label for='your_name'>Your Name *:</label>
+						<input type="text" name="your_name" placeholder="John Doe" class="required">
 					</fieldset>
 
 					<fieldset>
-						<label for='your_email'>Your Email:</label>
-						<input type="email" name="your_email" placeholder="john@doe.com">
+						<label for='your_email'>Your Email *:</label>
+						<input type="text" name="your_email" placeholder="john@doe.com" class="required">
 					</fieldset>	
 
 					<fieldset>
-						<label for='your_subject'>Your Subject:</label>
-						<input type="text" name="your_subject" placeholder="Hey there">
+						<label for='your_subject'>Your Subject *:</label>
+						<input type="text" name="your_subject" placeholder="Hey there" class="required">
 					</fieldset>	
 					
 					<fieldset>
-						<label for='your_message'>Your Message:</label>
-						<textarea name="your_message" rows="5" placeholder="Dear Local Branch,"></textarea>
+						<label for='your_message'>Your Message *:</label>
+						<textarea name="your_message" rows="5" placeholder="Dear Local Branch," class="required"></textarea>
 					</fieldset>
 				</section>								
 				

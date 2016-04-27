@@ -78,3 +78,15 @@ select, .button{
 		background: $white;
 	}
 }
+
+.error{
+	box-shadow: 0px 0px 10px $error;
+}
+
+#error_text{
+	@extend .large_input;
+	background:$error;
+	color:#fff;
+	text-align:left;
+	display:none;
+}

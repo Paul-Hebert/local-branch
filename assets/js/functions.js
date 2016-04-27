@@ -158,22 +158,44 @@ function initialize_contact_form(){
 	$( "#contact_form" ).on( "submit", function( event ) {
 	    event.preventDefault();
 
-	    var form_data = $('#contact_form').serialize();
+	    if ( validate() ){
+		    var form_data = $('#contact_form').serialize();
 
-	    if( $(this).hasClass('add-a-plant') ){
-	    	form_data += "&add-a-plant=" + true;
-	    }
-
-	    $.ajax({
-		    type : 'POST',
-		    url : 'assets/php/submit_contact.php',
-		    data : form_data,
-		    success: function(data){
-		    	$('.main-content').html(data);
+		    if( $(this).hasClass('add-a-plant') ){
+		    	form_data += "&add-a-plant=" + true;
 		    }
-		});
+
+		    $.ajax({
+			    type : 'POST',
+			    url : 'assets/php/submit_contact.php',
+			    data : form_data,
+			    success: function(data){
+			    	$('.main-content').html(data);
+			    }
+			});
+		}
 	});
 
+}
+
+function validate(){
+	$('.error').removeClass('error');
+	$('#error_text').remove();
+
+	$('.required').each(function(){
+		if ( $(this).val() === '' || $(this).val() === null || $(this).val() === undefined ){
+			$(this).addClass('error');
+		}
+	});
+
+	if ( $('.error').length > 0 ){
+		$('<div id="error_text">Please fill out all required fields above. Required fields have a red outline.</div>').insertBefore('input[type=submit]');
+		$('#error_text').slideDown(350);
+
+		return false;
+	} else{
+		return true;
+	}
 }
 
 // Borrowed animate function works on SVG hamburger icon.

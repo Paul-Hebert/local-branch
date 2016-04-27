@@ -39,7 +39,8 @@
 			'Plant Name: ' . $_POST['plant_name'] . '<br>' .
 			'Latin Name: ' . $_POST['latin_name'] . '<br>' .
 			'Plant Type: ' . $_POST['plant_type'] . '<br>' .
-			'Description: ' . $_POST['description']
+			'Description: ' . $_POST['description'] . '<br>' .
+			'Counties: ' . $_POST['counties']
 		;	
 
 		$success = '

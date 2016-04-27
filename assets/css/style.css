@@ -38,7 +38,7 @@ table {
   text-transform: uppercase;
   letter-spacing: .1em; }
 
-.box-shadow, .large_input, select, input, textarea, .button, .plant_preview, header {
+.box-shadow, .large_input, select, input, textarea, .button, #error_text, .plant_preview, header {
   box-shadow: 0px 5px 10px #00301C; }
 
 .visible-y {
@@ -75,7 +75,7 @@ a {
 form {
   max-width: 600px; }
 
-.large_input, select, input, textarea, .button {
+.large_input, select, input, textarea, .button, #error_text {
   padding: 20px 5px;
   margin-bottom: 13pt;
   -o-border-radius: 40px;
@@ -140,6 +140,15 @@ select, .button {
   font-style: italic; }
   .button:hover {
     background: #fff; }
+
+.error {
+  box-shadow: 0px 0px 10px #f00; }
+
+#error_text {
+  background: #f00;
+  color: #fff;
+  text-align: left;
+  display: none; }
 
 #home .logo {
   line-height: 100%; }

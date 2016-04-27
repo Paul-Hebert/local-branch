@@ -1,13 +1,9 @@
 Local Branch
 ============
 
-Tasks
------
-* Add more plants
-
+Necessary Tasks
+---------------
 * Validate Forms
-
-* Add a share button
 
 * Test app icon
 
@@ -15,6 +11,15 @@ Tasks
 
 * Find better position for maps on plant pages
 
-* Test new cookie length
-
 * Make logo symmetrical
+
+* Test addition of counties to add a plant form
+
+
+Additional Tasks
+----------------
+* Add a share button
+
+* Add more plants
+
+* Different button color
