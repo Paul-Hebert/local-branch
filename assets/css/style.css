@@ -78,10 +78,6 @@ form {
 .large_input, select, input, textarea, .button, #error_text {
   padding: 20px 5px;
   margin-bottom: 13pt;
-  -o-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -webkit-border-radius: 40px;
-  border-radius: 40px;
   color: #00301C;
   display: block;
   font-size: 16pt;
@@ -117,10 +113,6 @@ section {
   border-bottom: 1px solid #CEDCD3; }
 
 .select_wrapper {
-  -o-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -webkit-border-radius: 40px;
-  border-radius: 40px;
   background: #F8FBF8;
   position: relative;
   max-width: 600px; }
@@ -137,7 +129,11 @@ select, .button {
 
 .button {
   background: #F8FBF8;
-  font-style: italic; }
+  font-style: italic;
+  -o-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px; }
   .button:hover {
     background: #fff; }
 
