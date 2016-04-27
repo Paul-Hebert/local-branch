@@ -1,0 +1,28 @@
+#home{
+	//background:url('../imgs/landing.png');
+
+	.logo{
+		line-height:100%;
+
+		div:first-of-type{
+			font-size:46pt;
+		}
+
+		div:last-of-type{
+			position:relative;
+			top:-15pt;
+		}
+
+		svg{
+			position:relative;
+			top:-25pt;
+			width:150px;
+		}		
+	}
+
+	.button{
+		display:inline-block;
+		margin:2%;
+		width:46%;
+	}
+}

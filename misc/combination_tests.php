@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<style>
+			*{
+				font-family:Open Sans, sans-serif;
+			}
+
 			thead, tfoot{
 				background:#222;
 				color:#eee;

@@ -4,9 +4,9 @@
 ?>
 		<div class="main-content" id="home">
 			<h1 class="logo">
-				<span>Local</span> 
+				<div>Local</div> 
+				<div>Branch</div>				
 				<?php include('assets/svg/logo.php'); ?> 
-				<span>Branch</span>
 			</h1>
 
 			<h2 class="accent">Think Globally. Plant Locally.</h2>

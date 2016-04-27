@@ -15,4 +15,6 @@ Tasks
 
 * Find better position for maps on plant pages
 
-* Investigate cookie length
+* Test new cookie length
+
+* Make logo symmetrical

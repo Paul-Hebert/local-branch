@@ -141,6 +141,22 @@ select, .button {
   .button:hover {
     background: #fff; }
 
+#home .logo {
+  line-height: 100%; }
+  #home .logo div:first-of-type {
+    font-size: 46pt; }
+  #home .logo div:last-of-type {
+    position: relative;
+    top: -15pt; }
+  #home .logo svg {
+    position: relative;
+    top: -25pt;
+    width: 150px; }
+#home .button {
+  display: inline-block;
+  margin: 2%;
+  width: 46%; }
+
 #map {
   width: 400px; }
   #map path, #map polyline, #map polygon {
