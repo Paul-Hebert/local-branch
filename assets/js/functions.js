@@ -18,6 +18,8 @@ $(function(){
 				$('#favorites').html(data);			
 			}
 		});
+
+		initialize_favorites_link();
 	});	
 
 	initialize_favorites_link();
