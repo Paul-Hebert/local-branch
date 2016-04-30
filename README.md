@@ -19,3 +19,5 @@ Additional Tasks
 * Add a share button
 
 * Add more plants
+
+* Change wording on Clear Favorites. 

@@ -1,0 +1,26 @@
+header{
+	position:fixed;
+	z-index:20;
+	left:0px;
+	right:0px;
+	top:0px;
+	@include background-gradient(-6deg, 6deg);
+	@extend .box-shadow;
+
+	a{
+		color:$off-white;
+		text-decoration:none;
+		display:inline-block;
+		padding:20px;
+		@extend .heading;
+
+		&:hover{
+			color:$white;
+		}
+	}
+
+	nav{
+		float:right;
+		padding:15px;
+	}
+}
