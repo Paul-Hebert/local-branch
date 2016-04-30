@@ -7,7 +7,7 @@ $(function(){
 
 	set_favorite_function('#favorite');
 
-	$('#clear_favorites').click(function(e){
+	$('#reset_favorites').click(function(e){
 		Cookies.remove('favorites');
 		initialize_favorites_link();
 
