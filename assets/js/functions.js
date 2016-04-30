@@ -40,11 +40,21 @@ function initialize_location_picker(){
 	});	
 
 	$('#county_dropdown').change(function(){
-		var county = $(this).val()
-		var county = county.replace(/\ /g,'+');
+		if ( $('#type').length > 0 ){
+			var type = $('#type').text().replace(/\ /g,'+');;
+		} else{
+			var type="All";
+		}
 
-		window.location = 'plants.php?county=' + county + '&type=All';		
+		var county = $(this).val()
+		county = county.replace(/\ /g,'+');
+
+		window.location = 'plants.php?county=' + county + '&type=' + type;		
 	});
+
+	if ( $('#county').length > 0 ){
+		$('#county_dropdown').val( $('#county').text() );
+	}
 }
 
 function initialize_plant_map(counties){

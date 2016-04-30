@@ -127,6 +127,9 @@ section {
 select, .button {
   cursor: pointer; }
 
+select {
+  border-radius: 0px; }
+
 .button {
   background: #F8FBF8;
   font-style: italic;

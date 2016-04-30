@@ -67,6 +67,10 @@ select, .button{
 	cursor:pointer
 }
 
+select{
+	border-radius:0px; // Chrome adds rounded corners to select elements
+}
+
 .button{
 	background:$off-white;	
 	@extend .large_input;
