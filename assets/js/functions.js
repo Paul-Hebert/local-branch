@@ -53,7 +53,9 @@ function initialize_location_picker(){
 	});
 
 	if ( $('#county').length > 0 ){
-		$('#county_dropdown').val( $('#county').text() );
+		if ( $('#county').text() !== 'California' ){
+			$('#county_dropdown').val( $('#county').text() );
+		}
 	}
 }
 
