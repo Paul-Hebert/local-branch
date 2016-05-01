@@ -175,21 +175,27 @@ header {
     float: right;
     padding: 15px; }
 
-#home .logo {
-  line-height: 100%; }
-  #home .logo div:first-of-type {
-    font-size: 46pt; }
-  #home .logo div:last-of-type {
-    position: relative;
-    top: -15pt; }
-  #home .logo svg {
-    position: relative;
-    top: -25pt;
-    width: 150px; }
-#home .button {
-  display: inline-block;
-  margin: 2%;
-  width: 46%; }
+#home {
+  background: url("../imgs/bg2.png") no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+  #home .main-content .logo {
+    line-height: 100%; }
+    #home .main-content .logo div:first-of-type {
+      font-size: 46pt; }
+    #home .main-content .logo div:last-of-type {
+      position: relative;
+      top: -15pt; }
+    #home .main-content .logo svg {
+      position: relative;
+      top: -25pt;
+      width: 150px; }
+  #home .button {
+    display: inline-block;
+    margin: 2%;
+    width: 46%; }
 
 #map {
   width: 400px; }
@@ -288,7 +294,7 @@ header {
   .image_wrapper img.landscape {
     height: 100%; }
 
-#clear_favorites {
+#reset_favorites {
   margin-top: 16pt; }
 
 citation a, p a {
@@ -352,7 +358,7 @@ citation {
   height: 100%;
   z-index: 5; }
 
-@media (max-width: 950px) {
+@media (max-width: 935px) {
   svg, img {
     max-width: 100%; }
 
@@ -443,6 +449,11 @@ citation {
     font-size: 10pt; }
 
   #plant_map, .description {
-    width: 100%; } }
+    width: 100%; }
+
+  #home .main-content .button {
+    width: 90%; }
+  #home .main-content h1 {
+    font-size: 34pt; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,9 @@
 <?php
-	$title = 'Local Branch';
+	$title   = 'Local Branch';
+	$page_id = 'home'; 
 	include('assets/php/header.php');
 ?>
-		<div class="main-content" id="home">
+		<div class="main-content">
 			<h1 class="logo">
 				<div>Local</div> 
 				<div>Branch</div>				

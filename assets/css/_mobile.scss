@@ -12,7 +12,7 @@
 	z-index:5;
 }
 
-@media(max-width:950px){
+@media(max-width:935px){
 	svg, img{
 		max-width:100%;
 	}
@@ -110,5 +110,17 @@
 
 	#plant_map, .description{
 		width:100%;
+	}
+
+	#home{
+		.main-content{
+			 .button{
+				width:90%;
+			}
+
+			h1{
+				font-size:$extra-large;
+			}
+		}
 	}
 }
