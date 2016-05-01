@@ -176,11 +176,11 @@ header {
     padding: 15px; }
 
 #home {
-  background: url("../imgs/bg2.png") no-repeat center center fixed !important;
+  /*background:url('../imgs/bg2.png')  no-repeat center center fixed !important; 
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
-  background-size: cover !important; }
+  background-size: cover !important;*/ }
   #home .main-content .logo {
     line-height: 100%; }
     #home .main-content .logo div:first-of-type {
