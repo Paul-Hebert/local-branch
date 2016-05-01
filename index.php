@@ -4,7 +4,7 @@
 	include('assets/php/header.php');
 ?>
 		<div class="main-content">
-			<h1 class="logo">
+			<h1 class="logo desktop">
 				<div>Local</div> 
 				<div>Branch</div>				
 				<?php include('assets/svg/logo.php'); ?> 

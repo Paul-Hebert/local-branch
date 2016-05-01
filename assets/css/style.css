@@ -359,6 +359,9 @@ citation {
   z-index: 5; }
 
 @media (max-width: 935px) {
+  .desktop {
+    display: none; }
+
   svg, img {
     max-width: 100%; }
 
