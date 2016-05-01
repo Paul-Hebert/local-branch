@@ -63,8 +63,10 @@
 				}
 
 				if ($featured_plants === false){
-					echo '<h2>Bummer! No plants of this type were found in this county.</h2>
-					<p>Know a plant that should be here? Please <a href="add-a-plant.php">submit</a> the plant so we can add it to the site.</p>';
+					echo '<h2>Sorry!</h2>
+					<p>No plants of this type were found in this county.</p>
+					<p>Know a plant that should be here? Please <a href="add-a-plant.php">submit</a> the plant so we can add it to the site.</p>
+					<a class="button" href="add-a-plant.php">Add a Plant</a>';
 				} else{
 					echo '<citation>Images courtesy of <a href="http://www.wikipedia.com">Wikipedia</a> under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>.</citation>';
 				}
