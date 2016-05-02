@@ -197,6 +197,7 @@ function validate(){
 	$('.required').each(function(){
 		if ( $(this).val() === '' || $(this).val() === null || $(this).val() === undefined ){
 			$(this).addClass('error');
+			$(this).change(function(){ $(this).removeClass('error') });			
 		}
 	});
 
