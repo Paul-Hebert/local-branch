@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $title; ?></title>
-		<!--<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>-->
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type='text/css' href="assets/css/style.css">
 
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/imgs/favicons/apple-icon-57x57.png">

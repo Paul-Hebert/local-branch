@@ -6,6 +6,8 @@ Local Branch is a web app that helps Californian home-owners find local plants f
 
 The latest draft of local branch can be viewed here: http://localbranch.org/
 
+You can view reports on the data at: http://localbranch.org/misc/combination_tests.php
+
 More Tasks
 ----------
 * Find better position for maps on plant pages
